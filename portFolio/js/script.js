@@ -12,6 +12,7 @@ if(typingBool==false){ // 타이핑이 진행되지 않았다면
     var tyInt = setInterval(typing,70); // 반복동작
 } 
      
+
 function typing(){
   $(".startText ul li").removeClass("on");
    $(".startText ul li").eq(liIndex).addClass("on");
