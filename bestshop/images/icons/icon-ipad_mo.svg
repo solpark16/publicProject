@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:#fff;stroke:#000;stroke-width:3px}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="icon_ipad_off" transform="translate(-19.096 7.263)">
+        <path id="사각형_370" data-name="사각형 370" transform="translate(19.096 -7.263)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="img" transform="translate(15.096 -2.264)">
+            <g id="사각형_395" data-name="사각형 395" class="cls-2" transform="translate(13 -3)">
+                <rect class="cls-3" width="32" height="44" rx="4"/>
+                <rect class="cls-4" x="1.5" y="1.5" width="29" height="41" rx="2.5"/>
+            </g>
+            <g id="사각형_397" data-name="사각형 397" class="cls-2" transform="translate(17 2)">
+                <rect class="cls-3" width="24" height="30" rx="2"/>
+                <rect class="cls-4" x="1.5" y="1.5" width="21" height="27" rx=".5"/>
+            </g>
+            <circle id="타원_103" data-name="타원 103" cx="2" cy="2" r="2" transform="translate(27 33)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="icon_aircleaner_off" transform="translate(.898 6.158)">
+        <path id="사각형_380" data-name="사각형 380" transform="translate(-.898 -6.158)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_523" data-name="그룹 523" transform="translate(.135 1.135)">
+            <path id="패스_205" data-name="패스 205" class="cls-2" d="M4.933 15.156h13.581a1.911 1.911 0 0 1 1.907 1.785L21.7 36.21H1.75l1.274-19.269a1.913 1.913 0 0 1 1.909-1.785zM11.723.75a7.758 7.758 0 0 1 4 14.407h2.795a1.911 1.911 0 0 1 1.907 1.785L21.7 36.21H1.75l1.274-19.269a1.913 1.913 0 0 1 1.909-1.785h2.795A7.757 7.757 0 0 1 11.723.75z" transform="translate(11.326 -4.043)"/>
+            <circle id="타원_96" data-name="타원 96" class="cls-2" cx="3.324" cy="3.324" r="3.324" transform="translate(19.724 1.139)"/>
+            <path id="패스_206" data-name="패스 206" d="M1.858 33.68H21.8l-2.489 5.54H4.351zm1.5-9.53h17.73M.75 39.22h22.162" transform="translate(11.218 -1.513)" style="stroke-linecap:round;fill:none;stroke:#000;stroke-linejoin:round;stroke-width:3px"/>
+        </g>
+    </g>
+</svg>

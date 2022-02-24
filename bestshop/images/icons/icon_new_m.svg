@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <g data-name="그룹 777">
+        <ellipse data-name="타원 108" cx="10.131" cy="10.136" rx="10.131" ry="10.136" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px" transform="translate(22.299 14.922)"/>
+        <path data-name="Combined Shape" d="M8 42.764a17.764 17.764 0 1 1 35.527 0z" transform="translate(6.667 10.194)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+        <g data-name="그룹 778" transform="translate(43.813 2.667)">
+            <circle data-name="타원 120" cx="7.472" cy="7.472" r="7.472"/>
+            <path data-name="패스 283" d="M28.39 1.714h2.6l2.49 6.318h.092V1.714h1.506V9.2h-2.6L29.99 2.881h-.09V9.2h-1.51z" transform="translate(-24.17 1.948)" style="stroke:#fff;stroke-width:.2px;fill:#fff"/>
+        </g>
+    </g>
+</svg>

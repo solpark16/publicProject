@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="main_icon_wedding" transform="translate(-1248.416 -1097)">
+        <path id="사각형_544" data-name="사각형 544" transform="translate(1248.416 1097)" style="fill:none" d="M0 0h56v56H0z"/>
+        <g id="그룹_97" data-name="그룹 97" transform="translate(-972.584 688.149)">
+            <path id="패스_53" data-name="패스 53" d="M2231.535 417.6a2.691 2.691 0 0 1 2.634-2.744 2.588 2.588 0 0 1 2.634 2.744c0 1.845-1.115 3.418-2.646 4.883a12.741 12.741 0 0 1-2.621 1.853s-5.268-2.725-5.268-6.736a2.588 2.588 0 0 1 2.634-2.744 2.691 2.691 0 0 1 2.633 2.744z" transform="translate(-.224)" style="stroke-linejoin:round;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px;fill:none"/>
+            <path id="패스_54" data-name="패스 54" class="cls-3" d="M2243.712 492.113a13.475 13.475 0 0 0-1.845-.113 15.866 15.866 0 1 0 9.405 3.087" transform="translate(0 -64.783)"/>
+            <path id="패스_55" data-name="패스 55" class="cls-3" d="M2266.779 522.022a11.059 11.059 0 1 0 7.661 2.82" transform="translate(-25.192 -89.993)"/>
+            <path id="패스_56" data-name="패스 56" class="cls-3" d="M2336.631 479.81h.275a14.9 14.9 0 1 0-8.021-2.34" transform="translate(-80.613 -29.515)"/>
+            <path id="패스_57" data-name="패스 57" class="cls-3" d="M2363.472 500.1a10.1 10.1 0 1 0-7.722-2.151" transform="translate(-105.804 -54.707)"/>
+        </g>
+    </g>
+</svg>

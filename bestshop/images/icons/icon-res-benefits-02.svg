@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="icon_생활맞춤컨설팅" transform="translate(-540 -628)">
+    <rect id="사각형_339" data-name="사각형 339" width="64" height="64" transform="translate(540 628)" fill="none"/>
+    <g id="그룹_415" data-name="그룹 415" transform="translate(-3 0)">
+      <path id="빼기_4" data-name="빼기 4" d="M9.722,14h0L4.749,10,0,14V1.458A19,19,0,0,0,9.5,4,18.994,18.994,0,0,0,19,1.458V14l-4.75-4L9.723,14Z" transform="translate(565.5 669.396)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="타원_89" data-name="타원 89" transform="translate(561 641)" fill="none" stroke="#000" stroke-width="1.5">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.25" fill="none"/>
+      </g>
+      <g id="타원_90" data-name="타원 90" transform="translate(556 636)" fill="none" stroke="#000" stroke-width="1.5">
+        <circle cx="19" cy="19" r="19" stroke="none"/>
+        <circle cx="19" cy="19" r="18.25" fill="none"/>
+      </g>
+      <path id="합치기_13" data-name="합치기 13" d="M8.157,12.433,3.019,14.979l.936-5.067L0,4.944l5.6-.152L8,0l2.4,4.791,5.6.152L12.231,9.675,13.119,15Z" transform="translate(567.001 647.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

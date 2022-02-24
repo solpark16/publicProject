@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon_plus_hover" transform="translate(-910 -1426)">
+        <path id="사각형_551" data-name="사각형 551" transform="translate(910 1426)" style="fill:none" d="M0 0h16v16H0z"/>
+        <g id="그룹_729" data-name="그룹 729">
+            <path id="사각형_197" data-name="사각형 197" class="cls-2" transform="translate(912.35 1433.35)" d="M0 0h11.3v1H0z"/>
+            <path id="사각형_198" data-name="사각형 198" class="cls-2" transform="translate(917.35 1428.35)" d="M0 0h1v11.3H0z"/>
+        </g>
+    </g>
+</svg>

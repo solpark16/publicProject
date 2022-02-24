@@ -1,0 +1,29 @@
+<svg id="icon_센서_점검" data-name="icon_센서 점검" xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-4,.cls-6{fill:none}.cls-2,.cls-3,.cls-6{stroke:#000}.cls-2,.cls-3,.cls-4{stroke-linecap:round;stroke-linejoin:round}.cls-2,.cls-3,.cls-4,.cls-6{stroke-width:2.5px}.cls-4{stroke:#fff}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <path id="bg" class="cls-1" d="M0 0h96v96H0z"/>
+    <g id="그룹_26" data-name="그룹 26" transform="translate(8 15)">
+        <g id="사각형_21" data-name="사각형 21" class="cls-2">
+            <path class="cls-7" d="M0 0h18v18H0z"/>
+            <path class="cls-1" d="M1.25 1.25h15.5v15.5H1.25z"/>
+        </g>
+        <g id="사각형_22" data-name="사각형 22" class="cls-2">
+            <path class="cls-7" d="M0 0h18v18H0z" transform="translate(0 24)"/>
+            <path class="cls-1" d="M1.25 1.25h15.5v15.5H1.25z" transform="translate(0 24)"/>
+        </g>
+        <g id="사각형_23" data-name="사각형 23" class="cls-3">
+            <path class="cls-7" d="M0 0h18v18H0z" transform="translate(0 48)"/>
+            <path class="cls-1" d="M1.25 1.25h15.5v15.5H1.25z" transform="translate(0 48)"/>
+        </g>
+        <path id="패스_42" data-name="패스 42" class="cls-4" d="m916.833 95.427 2.6 2.622 5.729-5.383" transform="translate(-912 -86)"/>
+        <path id="패스_43" data-name="패스 43" class="cls-4" d="m916.833 95.427 2.6 2.622 5.729-5.383" transform="translate(-912 -63)"/>
+        <path id="패스_44" data-name="패스 44" class="cls-3" d="m916.833 95.427 2.6 2.622 5.729-5.383" transform="translate(-912 -38.358)"/>
+        <path id="패스_45" data-name="패스 45" d="M966.5 122.049s1.868-.035 4.647-.071c4.33-.058 11.093-.113 11.853.071 1.167.284 2.667 1.617 2.833 4.784S984 129 984.167 130.167s1.167 3.5 0 4.667-2.5 2.166-2.667 3.166.333 2.833-.667 4-2.833.667-3.333 2 1.167 4.333-1.833 4.667-13.833-.667-15.833-2-8.833-6-10.833-6.333-9.168-1.334-9.668-2.334 3.667-19.167 6.833-19.667 3.833 2.333 7.667 2.167 10-5.667 13.5-5.5 5 1.5 5 3.333-1.5 2.333-2.833 3.167" transform="translate(-913 -87)" style="stroke-width:2.5px;stroke-linecap:round;stroke:#000;fill:none"/>
+        <path id="패스_46" data-name="패스 46" class="cls-6" d="m984.167 113.667-2.833 9" transform="translate(-913 -87)"/>
+        <path id="패스_47" data-name="패스 47" class="cls-6" d="m977.333 111-5 10" transform="translate(-913 -87)"/>
+        <path id="패스_48" data-name="패스 48" class="cls-3" d="M981.333 93.667s-6.5 2.333-7.667 8.167 1 9.5 6.667 11.167 11.167 0 13-6.333-1.666-10.168-2.166-10.168-1.833 10-8 8.5-1.834-11.333-1.834-11.333z" transform="translate(-913 -87)"/>
+    </g>
+</svg>

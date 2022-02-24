@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_235" data-name="사각형 235" style="stroke:#707070;fill:none;stroke-width:3px" d="M0 0h36.322v42.587H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke-width:3px;stroke:#da0f47;stroke-linecap:round;stroke-linejoin:round}.cls-5,.cls-6{fill:#da0f47}.cls-5{fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="icon_washer_on" transform="translate(-1.316 1.952)">
+        <path id="사각형_374" data-name="사각형 374" transform="translate(1.316 -1.952)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_346" data-name="그룹 346" transform="translate(8.316 2.048)">
+            <g id="그룹_345" data-name="그룹 345" transform="translate(-1 -1)" style="clip-path:url(#clip-path)">
+                <path id="패스_104" data-name="패스 104" class="cls-4" d="M2.912.75h28.256a2.072 2.072 0 0 1 2.162 1.971v34.9a2.072 2.072 0 0 1-2.162 1.971H2.912A2.072 2.072 0 0 1 .75 37.624V2.721A2.072 2.072 0 0 1 2.912.75zM2 11.6h30.076" transform="translate(1.121 1.121)"/>
+                <path id="패스_105" data-name="패스 105" class="cls-5" d="M18.69 4.75h5.639a.94.94 0 1 1 0 1.88H18.69a.94.94 0 1 1 0-1.88" transform="translate(5.423 2.134)"/>
+                <path id="패스_106" data-name="패스 106" class="cls-5" d="M4.69 4.75h5.639a.94.94 0 1 1 0 1.88H4.69a.94.94 0 1 1 0-1.88" transform="translate(1.881 2.134)"/>
+                <path id="패스_107" data-name="패스 107" class="cls-6" d="M14.13 3.75a1.88 1.88 0 1 0 1.88 1.88 1.88 1.88 0 0 0-1.88-1.88" transform="translate(4.031 1.881)"/>
+                <circle id="타원_21" data-name="타원 21" class="cls-4" cx="9.398" cy="9.398" r="9.398" transform="translate(8.763 16.908)"/>
+                <path id="패스_108" data-name="패스 108" class="cls-6" d="m19.409 20.49 1.6-2.178-1.252-1.562-2.192 2.75a1.436 1.436 0 0 0-.315.9v5.243a1.446 1.446 0 0 0 .317.9l2.189 2.734 1.252-1.561-1.559-1.927a1.448 1.448 0 0 1-.32-.907v-3.538a1.436 1.436 0 0 1 .279-.852z" transform="translate(5.297 2.664)"/>
+            </g>
+        </g>
+    </g>
+</svg>

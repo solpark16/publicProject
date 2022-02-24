@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <path data-name="사각형 764" style="fill:none" d="M0 0h40v40H0z"/>
+    <g data-name="패스 942" style="stroke-linecap:round;fill:none">
+        <path d="M3.661.731a1.56 1.56 0 0 1 2.639 0l3.42 5.45A1.56 1.56 0 0 1 8.4 8.57H1.563A1.56 1.56 0 0 1 .241 6.181z" style="stroke:none" transform="rotate(90 5.065 19.996)"/>
+        <path d="M4.982 1.5c-.033 0-.042.014-.05.028l-3.42 5.45c-.012.018-.02.03-.002.06.017.032.031.032.053.032h6.839c.02 0 .035 0 .052-.031.017-.031.01-.043-.002-.061l-3.42-5.45c-.008-.014-.017-.028-.05-.028m0-1.5c.508 0 1.016.244 1.321.73l3.42 5.45c.652 1.04-.095 2.39-1.321 2.39h-6.84C.337 8.57-.41 7.22.243 6.18L3.66.73C3.966.245 4.474 0 4.982 0z" style="fill:#fff;stroke:none" transform="rotate(90 5.065 19.996)"/>
+    </g>
+    <g data-name="사각형 860" transform="translate(7 10)" style="stroke:#fff;stroke-width:1.5px;fill:none">
+        <rect width="26" height="20" rx="3" style="stroke:none"/>
+        <rect x=".75" y=".75" width="24.5" height="18.5" rx="2.25" style="fill:none"/>
+    </g>
+</svg>

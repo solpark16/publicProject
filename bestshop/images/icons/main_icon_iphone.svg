@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <path style="fill:none" d="M0 0h64v64H0z"/>
+    <g transform="translate(3.696 10.037)">
+        <rect data-name="사각형 395" width="29" height="52" rx="4" transform="translate(14.304 -4.037)" style="stroke:#fff;stroke-linejoin:round;stroke-width:2px;fill:none"/>
+        <rect data-name="사각형 396" width="12.471" height="5.82" rx="1" transform="translate(22.715 -4.002)" style="fill:#fff"/>
+    </g>
+</svg>

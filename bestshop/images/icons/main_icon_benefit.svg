@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-width:1.5px;stroke-linejoin:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="main_icon_benefit" transform="translate(-932.416 -1097)">
+        <path id="사각형_542" data-name="사각형 542" transform="translate(932.416 1097)" style="fill:none" d="M0 0h56v56H0z"/>
+        <g id="그룹_96" data-name="그룹 96" transform="translate(440.416 -1039.631)">
+            <path id="사각형_79" data-name="사각형 79" class="cls-2" transform="translate(498 2152.816)" d="M0 0h45.229v7.838H0z"/>
+            <path id="사각형_80" data-name="사각형 80" class="cls-2" transform="translate(499.967 2160.654)" d="M0 0h41.296v26.575H0z"/>
+            <path id="패스_49" data-name="패스 49" class="cls-2" d="M606 2274v23.6h9.832V2274" transform="translate(-90.302 -110.368)"/>
+            <path id="사각형_81" data-name="사각형 81" class="cls-2" transform="translate(513.732 2152.816)" d="M0 0h13.765v7.838H0z"/>
+            <path id="패스_50" data-name="패스 50" class="cls-2" d="M538.731 2329.321h-4.953v-12.677" transform="translate(-29.915 -146.024)"/>
+            <path id="패스_51" data-name="패스 51" d="M564.335 2152.815s-17.589 0-13.4-7.811c5.302-9.892 13.4 7.811 13.4 7.811z" transform="translate(-43.72)" style="stroke-linejoin:bevel;stroke:#000;stroke-linecap:round;stroke-width:1.5px;fill:none"/>
+            <path id="패스_52" data-name="패스 52" d="m636.091 2152.623-.091.193s17.589 0 13.4-7.811c-3.715-6.93-8.8-.317-11.515 4.264" transform="translate(-115.385)" style="stroke-linejoin:round;stroke:#000;stroke-linecap:round;stroke-width:1.5px;fill:none"/>
+        </g>
+    </g>
+</svg>

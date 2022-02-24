@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="icon_timedeal" transform="translate(-270 -1020)">
+        <path id="사각형_547" data-name="사각형 547" transform="translate(270 1020)" style="fill:none" d="M0 0h40v40H0z"/>
+        <g id="그룹_324" data-name="그룹 324" transform="translate(667.279 235.182)">
+            <g id="그룹_323" data-name="그룹 323" transform="translate(-384.268 795.151)">
+                <path id="패스_208" data-name="패스 208" class="cls-2" d="M-386.318 799.33q.248-.407.527-.79a11.446 11.446 0 0 1 9.268-4.729 11.473 11.473 0 0 1 11.46 11.459 11.473 11.473 0 0 1-11.46 11.459 11.393 11.393 0 0 1-5.793-1.574" transform="translate(386.318 -793.811)"/>
+            </g>
+            <circle id="타원_30" data-name="타원 30" class="cls-2" cx="2.327" cy="2.327" r="2.327" transform="translate(-376.799 804.284)"/>
+            <path id="선_1" data-name="선 1" class="cls-2" transform="translate(-379.82 790.568)" d="M0 0h11.459"/>
+            <path id="선_2" data-name="선 2" class="cls-2" transform="translate(-379.151 800.212)" d="m0 0 3.342 4.106"/>
+            <path id="선_3" data-name="선 3" class="cls-2" transform="translate(-374.472 790.599)" d="M0 0v4.52"/>
+            <path id="선_4" data-name="선 4" class="cls-2" transform="translate(-366.546 795.724)" d="M0 2.355 2.292 0"/>
+            <path id="선_5" data-name="선 5" class="cls-2" transform="translate(-391.279 804.318)" d="M9.167 0H0"/>
+            <path id="선_6" data-name="선 6" class="cls-2" transform="translate(-388.987 808.902)" d="M6.875 0H0"/>
+            <path id="선_7" data-name="선 7" class="cls-2" transform="translate(-386.695 813.517)" d="M4.584 0H0"/>
+        </g>
+    </g>
+</svg>

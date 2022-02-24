@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="main_icon_shop" transform="translate(-777 -1097)">
+        <path id="사각형_540" data-name="사각형 540" transform="translate(777 1097)" style="fill:none" d="M0 0h56v56H0z"/>
+        <g id="그룹_117" data-name="그룹 117" transform="translate(-580 655)">
+            <path id="패스_85" data-name="패스 85" class="cls-2" d="M1376.689 606h-7.424L1362 619.71h45.047l-7.266-13.71h-7.423" transform="translate(0 -130.539)"/>
+            <path id="패스_86" data-name="패스 86" class="cls-2" d="M1423.42 643.453h-19.62l2.405-4.4" transform="translate(-34.979 -158.199)"/>
+            <path id="패스_87" data-name="패스 87" class="cls-2" d="M1474.741 482.353a6.12 6.12 0 1 0-6.12 6.121 6.12 6.12 0 0 0 6.12-6.121z" transform="translate(-84.097 -21.951)"/>
+            <path id="패스_88" data-name="패스 88" class="cls-2" d="M1459.586 459.907a9.794 9.794 0 1 0-19.586 0c0 9.412 9.793 20.451 9.793 20.451s9.793-11.039 9.793-20.451z" transform="translate(-65.269)"/>
+        </g>
+    </g>
+</svg>

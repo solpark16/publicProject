@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_243" data-name="사각형 243" transform="translate(-1 -1)" style="stroke:#707070;fill:none;stroke-width:3px" d="M0 0h31.834v40.628H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke-width:3px;stroke:#000}
+        </style>
+    </defs>
+    <g id="icon_pral_off" transform="translate(5.604 1.014)">
+        <path id="사각형_376" data-name="사각형 376" transform="translate(-5.604 -1.014)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="마스크_그룹_357" data-name="마스크 그룹 357" transform="translate(3.397 3.986)" style="clip-path:url(#clip-path)">
+            <path id="패스_119" data-name="패스 119" class="cls-4" d="M6.343 4.009C3.954 5.854.333 8.82.79 16.115c.449 7.178 1.424 13.407 4.094 17.524 1.156 1.783 4.746 3.237 6.99 3.745 7.486 1.7 15.165.429 16.852-3.238s-.06-25.056-6.357-30.617-13.636-1.364-16.026.48z" transform="translate(-.124 -.124)"/>
+            <path id="패스_120" data-name="패스 120" class="cls-4" d="M2.21 25.1q9.673 9.119 27.009 4.753" transform="translate(.021 2.294)"/>
+            <path id="패스_121" data-name="패스 121" class="cls-4" d="M.8 20.9a43.235 43.235 0 0 1 27.482-3.555" transform="translate(-.119 1.44)"/>
+            <path id="패스_122" data-name="패스 122" class="cls-4" d="M.72 16.516q12.012-6.762 26.541-4.059" transform="translate(-.127 .962)"/>
+        </g>
+    </g>
+</svg>

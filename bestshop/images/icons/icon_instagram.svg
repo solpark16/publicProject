@@ -1,0 +1,17 @@
+<svg id="icon_instagram" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_741" data-name="사각형 741" style="fill:none" d="M0 0h56v56H0z"/>
+        </clipPath>
+        <style>
+            .cls-2{clip-path:url(#clip-path)}
+        </style>
+    </defs>
+    <g id="그룹_1152" data-name="그룹 1152" class="cls-2">
+        <g id="그룹_1151" data-name="그룹 1151">
+            <g id="그룹_1150" data-name="그룹 1150" class="cls-2">
+                <path id="패스_395" data-name="패스 395" d="M34.647 6.667a6.993 6.993 0 0 1 7 7v20.98a6.993 6.993 0 0 1-7 7H13.662a6.993 6.993 0 0 1-7-7V13.662a6.993 6.993 0 0 1 7-7zm-10.493 7a10.493 10.493 0 1 0 10.493 10.488 10.492 10.492 0 0 0-10.492-10.493m0 2.331a8.162 8.162 0 1 1-8.162 8.162 8.163 8.163 0 0 1 8.162-8.162m10.711-4.443a2.623 2.623 0 1 0 2.623 2.623 2.623 2.623 0 0 0-2.623-2.623" transform="translate(4.992 5.031)" style="fill:#666;fill-rule:evenodd"/>
+            </g>
+        </g>
+    </g>
+</svg>

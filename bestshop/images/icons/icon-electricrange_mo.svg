@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="icon_electricrange_off" transform="translate(-67.736 -14.997)">
+        <path id="사각형_381" data-name="사각형 381" transform="translate(67.736 14.997)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_524" data-name="그룹 524" transform="translate(71.736 24.997)">
+            <rect id="사각형_382" data-name="사각형 382" class="cls-2" width="38" height="26" rx="1.5" transform="translate(1.167 .75)"/>
+            <circle id="타원_97" data-name="타원 97" class="cls-2" cx="6.417" cy="6.417" r="6.417" transform="translate(21.083 7.792)"/>
+            <path id="패스_207" data-name="패스 207" d="M23.879 11h5.276c.485 0 .879.616.879 1.375s-.394 1.375-.879 1.375h-5.276c-.485 0-.879-.616-.879-1.375S23.394 11 23.879 11" transform="translate(3.967 1.833)" style="fill-rule:evenodd"/>
+            <circle id="타원_98" data-name="타원 98" class="cls-2" cx="3.667" cy="3.667" r="3.667" transform="translate(6.875 4.583)"/>
+            <circle id="타원_99" data-name="타원 99" class="cls-2" cx="3.667" cy="3.667" r="3.667" transform="translate(6.875 15.583)"/>
+            <path id="사각형_383" data-name="사각형 383" style="fill:none" d="M0 0h39.865v28.14H0z"/>
+        </g>
+    </g>
+</svg>

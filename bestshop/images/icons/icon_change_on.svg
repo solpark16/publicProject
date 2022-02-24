@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <g data-name="그룹 775">
+        <g transform="translate(-5.033 16.045)">
+            <g data-name="사각형 395" transform="translate(13.033 -4.045)" style="stroke:#da0f47;stroke-width:1.5px;fill:#fff">
+                <rect width="14" height="24" rx="4" style="stroke:none"/>
+                <rect x=".75" y=".75" width="12.5" height="22.5" rx="3.25" style="fill:none"/>
+            </g>
+            <rect data-name="사각형 396" width="6" height="3" rx="1" transform="translate(17.033 -4.045)" style="fill:#da0f47"/>
+        </g>
+        <g data-name="icon_iphone" transform="translate(12.967 16.045)">
+            <g data-name="사각형 395" transform="translate(13.033 -4.045)" style="stroke:#da0f47;stroke-width:1.5px;fill:#fff">
+                <rect width="14" height="24" rx="4" style="stroke:none"/>
+                <rect x=".75" y=".75" width="12.5" height="22.5" rx="3.25" style="fill:none"/>
+            </g>
+            <rect data-name="사각형 396" width="6" height="3" rx="1" transform="translate(17.033 -4.045)" style="fill:#da0f47"/>
+        </g>
+        <path data-name="패스 284" d="M2.371 4.317h16.538l-4.5-4.5" transform="translate(13 3)" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#da0f47;stroke-width:1.5px"/>
+        <path data-name="패스 285" d="M2.371 4.317h16.538l-4.5-4.5" transform="rotate(180 17.14 22.5)" style="stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#da0f47;stroke-width:1.5px"/>
+    </g>
+</svg>

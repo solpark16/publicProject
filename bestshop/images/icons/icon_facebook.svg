@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_745" data-name="사각형 745" transform="translate(-.459)" style="fill:none" d="M0 0h56v56H0z"/>
+        </clipPath>
+        <style>
+            .cls-2{clip-path:url(#clip-path)}
+        </style>
+    </defs>
+    <g id="icon_facebook" transform="translate(.459)">
+        <g id="그룹_1159" data-name="그룹 1159" class="cls-2">
+            <g id="그룹_1158" data-name="그룹 1158">
+                <g id="그룹_1157" data-name="그룹 1157" class="cls-2">
+                    <path id="패스_396" data-name="패스 396" d="M15.67 41.322h7.056V23.844h4.921l.525-5.85h-5.446v-3.332c0-1.379.281-1.925 1.629-1.925h3.817v-6.07h-4.886c-5.25 0-7.616 2.287-7.616 6.664V18H12v5.92h3.67z" transform="translate(8.793 5.402)" style="fill:#666;fill-rule:evenodd"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

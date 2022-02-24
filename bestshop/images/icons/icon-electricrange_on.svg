@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_247" data-name="사각형 247" style="fill:none" d="M0 0h34v24H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke:#da0f47;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="icon_electricrange" transform="translate(8 12.5)">
+        <g id="그룹_361" data-name="그룹 361" transform="translate(-1 -.5)" style="clip-path:url(#clip-path)">
+            <rect id="사각형_246" data-name="사각형 246" class="cls-4" width="32.5" height="22.5" rx="1.5" transform="translate(.75 .75)"/>
+            <circle id="타원_23" data-name="타원 23" class="cls-4" cx="5.5" cy="5.5" r="5.5" transform="translate(18 6.5)"/>
+            <path id="패스_124" fill="#da0f47" data-name="패스 124" d="M23.75 11h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5" style="fill-rule:evenodd"/>
+            <circle id="타원_24" data-name="타원 24" class="cls-4" cx="3" cy="3" r="3" transform="translate(6 4.5)"/>
+            <circle id="타원_25" data-name="타원 25" class="cls-4" cx="3" cy="3" r="3" transform="translate(6 13.5)"/>
+        </g>
+    </g>
+</svg>

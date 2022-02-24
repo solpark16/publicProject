@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-5{fill:none}.cls-6{fill:#fff}.cls-5,.cls-6{stroke:#000;stroke-width:2.5px}.cls-6{stroke-linecap:round;stroke-linejoin:round}.cls-8,.cls-9{stroke:none}.cls-9{fill:#000}
+        </style>
+    </defs>
+    <g id="icon_펫케어_악세사리_1BOX_제공" data-name="icon_펫케어 악세사리 1BOX 제공" transform="translate(-1377 -75)">
+        <path id="bg" class="cls-1" transform="translate(1377 75)" d="M0 0h96v96H0z"/>
+        <g id="그룹_42" data-name="그룹 42" transform="translate(5.149 33)">
+            <g id="사각형_33" data-name="사각형 33" transform="translate(1395 66.657)" style="stroke:#000;stroke-width:2.5px;fill:#fff">
+                <rect class="cls-8" width="56" height="39.343" rx="4"/>
+                <rect class="cls-1" x="1.25" y="1.25" width="53.5" height="36.843" rx="2.75"/>
+            </g>
+            <g id="패스_66" data-name="패스 66" style="stroke-linejoin:round;stroke-linecap:round;fill:#fff">
+                <path class="cls-8" d="M32.215 16.065c-3.896 0-10.314-.296-18.76-1.71-4.553-.762-7.787-1.533-8.42-1.687a13.638 13.638 0 0 1-2.023-1.203c-1.12-.816-1.762-1.63-1.762-2.23V4.617a3.372 3.372 0 0 1 3.185-3.362c.837.268 4.059 1.265 8.623 2.274 4.825 1.067 12.102 2.338 19.37 2.338 3.841 0 7.96-.347 12.589-1.063 7.74-1.194 13.962-3.148 15.194-3.549a3.372 3.372 0 0 1 3.182 3.362v4.618c0 .31-.535 1.113-2.542 2.156a22.305 22.305 0 0 1-3.003 1.265c-.275.077-3.24.896-7.698 1.704-4.292.778-10.886 1.705-17.935 1.705z" transform="translate(1390.852 58)"/>
+                <path class="cls-9" d="M4.301 2.524A2.12 2.12 0 0 0 2.5 4.617v4.574c.061.167.41.687 1.436 1.398.622.431 1.23.75 1.525.896 1.846.444 14.334 3.33 26.754 3.33 6.942 0 13.444-.913 17.676-1.678 4.31-.78 7.208-1.57 7.592-1.677a21.795 21.795 0 0 0 2.293-.93c1.614-.77 2.192-1.332 2.367-1.54V4.617a2.12 2.12 0 0 0-1.796-2.093c-1.707.545-7.746 2.374-15.14 3.516-4.693.725-8.873 1.077-12.779 1.077-7.381 0-14.754-1.287-19.64-2.367-4.242-.938-7.35-1.87-8.487-2.226M4.617 0s13.959 4.617 27.811 4.617c4.156 0 8.302-.415 12.398-1.048C53.29 2.263 60.026 0 60.026 0a4.617 4.617 0 0 1 4.617 4.617v4.618c0 2.55-6.431 4.617-6.431 4.617s-12.145 3.463-25.997 3.463-27.598-3.463-27.598-3.463S0 11.785 0 9.235V4.617A4.617 4.617 0 0 1 4.617 0z" transform="translate(1390.852 58)"/>
+            </g>
+            <g id="패스_67" data-name="패스 67" style="fill:none">
+                <path class="cls-8" d="M4.617 0a93.8 93.8 0 0 0 17.316 1.875A93.8 93.8 0 0 0 39.248 0a4.7 4.7 0 0 1 4.617 4.773v9.546a4.7 4.7 0 0 1-4.617 4.773H4.617A4.7 4.7 0 0 1 0 14.319V4.773A4.7 4.7 0 0 1 4.617 0z" transform="translate(1401.241 81.001)"/>
+                <path class="cls-9" d="M4.41 2.51C3.34 2.624 2.5 3.596 2.5 4.774v9.546c0 1.254.95 2.274 2.117 2.274h34.63c1.168 0 2.118-1.02 2.118-2.274V4.773c0-1.178-.84-2.15-1.91-2.262-1.69.347-9.538 1.864-17.522 1.864-7.985 0-15.833-1.517-17.523-1.864M4.617 0s8.658 1.875 17.316 1.875C30.59 1.875 39.248 0 39.248 0c2.55 0 4.617 2.137 4.617 4.773v9.546c0 2.637-2.067 4.774-4.617 4.774H4.618C2.067 19.093 0 16.956 0 14.319V4.773C0 2.137 2.067 0 4.617 0z" transform="translate(1401.241 81.001)"/>
+            </g>
+            <g id="그룹_40" data-name="그룹 40" transform="rotate(30 530.124 2757.562)">
+                <g id="타원_53" data-name="타원 53" class="cls-5" transform="translate(4.617 5.772)">
+                    <circle class="cls-8" cx="4.04" cy="4.04" r="4.04"/>
+                    <circle class="cls-1" cx="4.04" cy="4.04" r="2.79"/>
+                </g>
+                <g id="타원_54" data-name="타원 54" class="cls-5" transform="translate(0 3.463)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_55" data-name="타원 55" class="cls-5" transform="translate(4.617)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_56" data-name="타원 56" class="cls-5" transform="translate(10.389 1.154)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+            </g>
+            <g id="그룹_43" data-name="그룹 43" transform="rotate(-14.98 994.359 -5173.91)">
+                <g id="타원_53-2" data-name="타원 53" class="cls-5" transform="translate(4.617 5.772)">
+                    <circle class="cls-8" cx="4.04" cy="4.04" r="4.04"/>
+                    <circle class="cls-1" cx="4.04" cy="4.04" r="2.79"/>
+                </g>
+                <g id="타원_54-2" data-name="타원 54" class="cls-5" transform="translate(0 3.463)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_55-2" data-name="타원 55" class="cls-5" transform="translate(4.617)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_56-2" data-name="타원 56" class="cls-5" transform="translate(10.389 1.154)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+            </g>
+            <g id="그룹_44" data-name="그룹 44" transform="rotate(-14.98 1154.072 -5272.902)">
+                <g id="타원_53-3" data-name="타원 53" class="cls-5" transform="translate(4.617 5.772)">
+                    <circle class="cls-8" cx="4.04" cy="4.04" r="4.04"/>
+                    <circle class="cls-1" cx="4.04" cy="4.04" r="2.79"/>
+                </g>
+                <g id="타원_54-3" data-name="타원 54" class="cls-5" transform="translate(0 3.463)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_55-3" data-name="타원 55" class="cls-5" transform="translate(4.617)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+                <g id="타원_56-3" data-name="타원 56" class="cls-5" transform="translate(10.389 1.154)">
+                    <circle class="cls-8" cx="2.309" cy="2.309" r="2.309"/>
+                    <circle class="cls-1" cx="2.309" cy="2.309" r="1.059"/>
+                </g>
+            </g>
+            <g id="그룹_41" data-name="그룹 41" transform="translate(1404.991 71)">
+                <path id="패스_70" data-name="패스 70" class="cls-6" d="M1510.118 127.053s8.365 15.191 10.03 15.9 8.321 4.279 9.747 6.657 1.9 8.321 1.9 8.321h-20.266l-3.566-16.367" transform="translate(-1497.267 -124.554)"/>
+                <path id="패스_68" data-name="패스 68" class="cls-6" d="M1526.516 154.793s.728-3.744-.936-5.825-6.553-1.872-8.009-2.5-.624-1.872-1.664-3.224.208-4.888-1.456-5.513-3.432 1.352-4.161 2.5-4.472-.416-4.784 3.016 4.161 4.16 4.784 4.472.52 7.073.52 7.073z" transform="translate(-1497.835 -121.412)"/>
+                <path id="패스_69" data-name="패스 69" d="M1512.846 148.95s2.978-6.718 0-7.314-10.424.3-9.829-5.063 6.85-1.787 8.339-4.17 4.467-3.872 8.637-1.489 5.659 9.233 3.276 10.722-6.85-1.191-6.85-5.063" transform="translate(-1502.984 -129.707)" style="stroke-linecap:round;stroke:#000;stroke-width:2.5px;fill:#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

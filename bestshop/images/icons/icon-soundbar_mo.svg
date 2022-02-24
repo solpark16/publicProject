@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke-width:3px}.cls-2,.cls-3{stroke:#000}.cls-2{stroke-linecap:round;stroke-linejoin:round;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="icon_soundbar_off" transform="translate(-19.096 7.263)">
+        <path id="사각형_370" data-name="사각형 370" transform="translate(19.096 -7.263)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_241" data-name="그룹 241" transform="translate(22.096 4.737)">
+            <path id="패스_75" data-name="패스 75" class="cls-2" d="M14 15h24.448a1.63 1.63 0 0 1 1.63 1.63v5.433a1.63 1.63 0 0 1-1.63 1.63H14z" transform="translate(1.212 .308)"/>
+            <g id="그룹_239" data-name="그룹 239" transform="translate(20.68)">
+                <path id="패스_76" data-name="패스 76" class="cls-3" d="M.584 1.456a8.9 8.9 0 0 1 6.348 2.623 8.932 8.932 0 0 1 2.614 6.352l.051.133a.739.739 0 0 0 1.417-.133A10.4 10.4 0 0 0 .584 0 .742.742 0 0 0 .49 1.422l.093.033z" transform="rotate(-45 9.4 3.894)"/>
+                <path id="패스_77" data-name="패스 77" class="cls-3" d="M.637 1.436a5.448 5.448 0 0 1 5.5 5.518l.043.11a.74.74 0 0 0 1.413-.11A6.924 6.924 0 0 0 .637 0a.7.7 0 0 0-.221 1.34l.219.1z" transform="rotate(-45 13.804 2.294)"/>
+            </g>
+            <rect id="사각형_184" data-name="사각형 184" class="cls-3" width="8.692" height="1.63" rx=".75" transform="translate(23.904 18.839)"/>
+            <path id="패스_78" data-name="패스 78" class="cls-2" d="M1.63 2h11.952a1.63 1.63 0 0 1 1.63 1.63v21.188H1.63A1.63 1.63 0 0 1 0 23.188V3.63A1.63 1.63 0 0 1 1.63 2z" transform="translate(0 -.818)"/>
+            <g id="그룹_240" data-name="그룹 240" transform="translate(4.346 5.529)">
+                <circle id="타원_7" data-name="타원 7" cx="2.173" cy="2.173" r="2.173" transform="translate(1.087)" style="stroke:#000;fill:none;stroke-width:3px"/>
+                <path id="패스_79" data-name="패스 79" d="M3.26 14.019A3.26 3.26 0 1 0 0 10.76a3.259 3.259 0 0 0 3.26 3.259z" transform="translate(0 .649)" style="fill-rule:evenodd;stroke:#000;fill:none;stroke-width:3px"/>
+            </g>
+        </g>
+    </g>
+</svg>

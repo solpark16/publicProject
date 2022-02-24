@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_228" data-name="사각형 228" transform="translate(-1 -1)" style="stroke:#707070;fill:none;stroke-width:3px" d="M0 0h26.666v44.48H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke-width:3px;stroke:#da0f47;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="icon_refrigerator_on" transform="translate(-85 -9.981)">
+        <path id="사각형_373" data-name="사각형 373" transform="translate(85 9.981)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_518" data-name="그룹 518" transform="translate(-.584 2.526)">
+            <g id="그룹_337" data-name="그룹 337" transform="translate(97.583 10.455)" style="clip-path:url(#clip-path)">
+                <rect id="사각형_226" data-name="사각형 226" class="cls-4" width="22.904" height="40.719" rx="1.5" transform="translate(.563 .563)"/>
+                <path id="사각형_227" data-name="사각형 227" class="cls-4" transform="translate(15.514 3.744)" d="M0 0h4.454v13.997H0z"/>
+                <path id="선_20" data-name="선 20" transform="translate(12.015 .563)" style="stroke-linecap:round;stroke:#da0f47;fill:none;stroke-width:3px" d="M0 40.4V0"/>
+                <path id="선_21" data-name="선 21" transform="translate(.563 20.922)" style="stroke:#da0f47;fill:none;stroke-width:3px" d="M0 0h23.859"/>
+            </g>
+        </g>
+    </g>
+</svg>

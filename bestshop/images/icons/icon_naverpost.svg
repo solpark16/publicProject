@@ -1,0 +1,13 @@
+<svg id="icon_naverpost" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_749" data-name="사각형 749" style="fill:none" d="M0 0h56v56H0z"/>
+        </clipPath>
+        <style>
+            .cls-2{clip-path:url(#clip-path)}
+        </style>
+    </defs>
+    <g id="그룹_1166" data-name="그룹 1166" class="cls-2">
+        <path id="패스_397" data-name="패스 397" d="M32.524 28.7H9.333V5.333h23.191zM19.04 12.172h-3.485v9.12h3.474v-4.6l3.225 4.6h3.482v-9.12h-3.473v4.6zm6.72 26.786-4.83 5.7-4.832-5.7zm6.766-7.978-4.834 5.7H14.163l-4.83-5.7h23.193z" transform="translate(6.901 3.842)" style="fill:#666;fill-rule:evenodd"/>
+    </g>
+</svg>

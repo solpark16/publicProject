@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="ic" transform="translate(7 5.927)">
+    <rect id="사각형_843" data-name="사각형 843" width="50" height="50" transform="translate(-7 -5.927)" fill="#fff" opacity="0"/>
+    <path id="Line" d="M11.284,9H39.625" transform="translate(-3.123 -3.514)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Rectangle-2" transform="translate(-1 1)">
+      <path id="패스_261" data-name="패스 261" d="M11.236,6.75h0a4.485,4.485,0,0,1,4.486,4.486h0a4.485,4.485,0,0,1-4.486,4.486h0A4.485,4.485,0,0,1,6.75,11.236h0A4.485,4.485,0,0,1,11.236,6.75Z" transform="translate(-6.75 -6.75)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <path id="Line-2" d="M11.284,23H39.625" transform="translate(-3.123 10.588)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Rectangle-3" transform="translate(-1 29.102)">
+      <path id="패스_263" data-name="패스 263" d="M11.236,20.75h0a4.485,4.485,0,0,1,4.486,4.486h0a4.485,4.485,0,0,1-4.486,4.486h0A4.485,4.485,0,0,1,6.75,25.236h0A4.485,4.485,0,0,1,11.236,20.75Z" transform="translate(-6.75 -20.75)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <path id="Line-3" d="M7,16H35.437" transform="translate(-7.502 3.537)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Rectangle-4" transform="translate(28.029 15.051)">
+      <path id="패스_265" data-name="패스 265" d="M25.736,13.75h0a4.485,4.485,0,0,1,4.486,4.486h0a4.485,4.485,0,0,1-4.486,4.486h0a4.485,4.485,0,0,1-4.486-4.486h0A4.485,4.485,0,0,1,25.736,13.75Z" transform="translate(-21.25 -13.75)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_235" data-name="사각형 235" width="27.5" height="35.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_생활가전" transform="translate(12 2)">
+    <rect id="사각형_464" data-name="사각형 464" width="48" height="48" transform="translate(-12 -2)" fill="#fff" opacity="0"/>
+    <g id="그룹_345" data-name="그룹 345" transform="translate(-2 4)" clip-path="url(#clip-path)">
+      <path id="패스_104" data-name="패스 104" d="M2.475.75h22.55A1.725,1.725,0,0,1,26.75,2.475v30.55a1.725,1.725,0,0,1-1.725,1.725H2.475A1.725,1.725,0,0,1,.75,33.025V2.475A1.725,1.725,0,0,1,2.475.75Zm-.725,9.5h24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_105" data-name="패스 105" d="M18.5,4.75H23a.75.75,0,0,1,0,1.5H18.5a.75.75,0,0,1,0-1.5" fill-rule="evenodd"/>
+      <path id="패스_106" data-name="패스 106" d="M4.5,4.75H9a.75.75,0,0,1,0,1.5H4.5a.75.75,0,0,1,0-1.5" fill-rule="evenodd"/>
+      <path id="패스_107" data-name="패스 107" d="M13.75,3.75a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5"/>
+      <circle id="타원_21" data-name="타원 21" cx="7.5" cy="7.5" r="7.5" transform="translate(6.25 14.75)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_108" data-name="패스 108" d="M18.973,19.735,20.25,18l-1-1.247-1.75,2.2a1.146,1.146,0,0,0-.251.717v4.184a1.154,1.154,0,0,0,.253.719L19.25,26.75l1-1.246L19,23.966a1.156,1.156,0,0,1-.255-.724V20.416a1.146,1.146,0,0,1,.223-.68Z"/>
+    </g>
+  </g>
+</svg>

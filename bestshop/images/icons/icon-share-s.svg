@@ -1,0 +1,16 @@
+<svg data-name="그룹 1243" xmlns="http://www.w3.org/2000/svg" width="24.319" height="24" viewBox="0 0 24.319 24">
+    <defs>
+        <clipPath id="hiaybltala">
+            <path data-name="사각형 809" style="fill:none" d="M0 0h16.212v16H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 1242">
+        <g data-name="그룹 1241" transform="translate(4.053 4)" style="clip-path:url(#hiaybltala)">
+            <ellipse data-name="타원 161" cx="1.979" cy="1.953" rx="1.979" ry="1.953" transform="translate(.934 6.229)" style="stroke:#000;fill:none"/>
+            <ellipse data-name="타원 162" cx="1.979" cy="1.953" rx="1.979" ry="1.953" transform="translate(10.261 1.208)" style="stroke:#000;fill:none"/>
+            <ellipse data-name="타원 163" cx="1.979" cy="1.953" rx="1.979" ry="1.953" transform="translate(10.261 11.25)" style="stroke:#000;fill:none"/>
+            <path data-name="선 127" transform="translate(4.575 8.816)" style="stroke:#000;fill:none" d="m0 0 5.985 3.652"/>
+            <path data-name="선 128" transform="translate(4.825 4.305)" style="stroke:#000;fill:none" d="M0 3.284 5.891 0"/>
+        </g>
+    </g>
+</svg>

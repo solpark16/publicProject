@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_228" data-name="사각형 228" style="fill:none" d="M0 0h21.5v35.5H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke:#da0f47;stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="icon_주방가전" transform="translate(11 1)">
+        <g id="그룹_337" data-name="그룹 337" transform="translate(2 5)" style="clip-path:url(#clip-path)">
+            <rect id="사각형_226" data-name="사각형 226" class="cls-4" width="20" height="34" rx="1.5" transform="translate(.75 .75)"/>
+            <path id="사각형_227" data-name="사각형 227" class="cls-4" transform="translate(13.75 4.75)" d="M0 0h4v11H0z"/>
+            <path id="선_20" data-name="선 20" transform="translate(10.75 .75)" style="stroke-linecap:round;stroke:#da0f47;stroke-width:1.5px;fill:none" d="M0 34V0"/>
+            <path id="선_21" data-name="선 21" transform="translate(.75 19.75)" style="stroke:#da0f47;stroke-width:1.5px;fill:none" d="M0 0h20"/>
+        </g>
+    </g>
+</svg>

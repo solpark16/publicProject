@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:none;stroke:#000;stroke-width:3px}.cls-2{stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="icon_projector_off" transform="translate(-5.139 9.737)">
+        <path id="사각형_385" data-name="사각형 385" transform="translate(5.139 -9.737)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_528" data-name="그룹 528" transform="translate(-69.568 -21.566)">
+            <rect id="사각형_384" data-name="사각형 384" class="cls-2" width="40.683" height="17.948" rx="1.5" transform="translate(78.707 24.829)"/>
+            <circle id="타원_100" data-name="타원 100" class="cls-3" cx="5.385" cy="5.385" r="5.385" transform="translate(103.835 28.419)"/>
+            <circle id="타원_101" data-name="타원 101" class="cls-3" cx="1.795" cy="1.795" r="1.795" transform="translate(107.424 32.008)"/>
+            <path id="패스_208" data-name="패스 208" class="cls-2" d="M3.75 15.75v3.45a1.337 1.337 0 0 0 1.206 1.33l-.048.006H36.1l-.048-.006a1.337 1.337 0 0 0 1.202-1.33v-3.45" transform="translate(78.547 27.027)"/>
+        </g>
+    </g>
+</svg>

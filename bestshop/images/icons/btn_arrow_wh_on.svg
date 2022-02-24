@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g data-name="타원 1" transform="rotate(180 20 20)" style="stroke:#fff;fill:none">
+        <circle cx="20" cy="20" r="20" style="stroke:none"/>
+        <circle cx="20" cy="20" r="19.5" style="fill:none"/>
+    </g>
+    <path data-name="패스 3" d="m601 2095.333-7.546 7.546 7.546 7.546" transform="rotate(180 308.977 1061.417)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;stroke:#fff;fill:none"/>
+</svg>

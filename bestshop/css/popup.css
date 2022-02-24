@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+
+/* 윈도우팝업 */
+.win-popup-wrap { position: relative; padding: 30px 40px 50px 40px; } 
+.win-popup-wrap .pop-header { padding-bottom: 20px; border-bottom: 2px solid #000; background-color: #fff; z-index: 99; } 
+.win-popup-wrap .pop-header .tit { font-size: 20px; line-height: 30px; font-weight: 700; } 
+.win-popup-wrap .win-btn-close { position: absolute; top: 21px; right: 21px; width: 30px; height: 30px; z-index: 100; } 
+.win-popup-wrap .win-btn-close::before { content: ''; position: absolute; top: 50%; left: 50%; margin: -12px 0 0 -12px; width: 24px; height: 24px; background: url("../images/icons/btn-close-32.svg") no-repeat center; background-size: auto 100%; } 
+.win-popup-wrap .pop-conts .tit-wrap .h2-tit { font-weight: 700; font-size: 24px; line-height: 34px; } 
+.win-popup-wrap .pop-conts .h3-tit { margin-bottom: 8px; font-size: 14px; line-height: 24px; color: #000; font-weight: 700; } 
+.win-popup-wrap .pop-conts .btn-group { padding-top: 48px; text-align: center; } 
+.win-popup-wrap .pop-conts .tabs-wrap.border-type:before { display: none; } 
+.win-popup-wrap .pop-footer { padding: 16px 0 48px; background: #fff; } 
+.win-popup-wrap .pop-footer .btn-group { text-align: center; } 
+
+/* 당첨자 발표 */
+.win-popup-wrap .inner-contents .search-result {padding-bottom: 50px;margin: 10px 0 60px 0;border-bottom: 1px solid #000; } 
+.win-popup-wrap .inner-contents .search-result h1 {color: #da0f47;font-size: 30px;margin-bottom: 40px;background-color: #fff; } 
+.win-popup-wrap .inner-contents .search-result .no-result-msg {font-size: 20px;line-height:26px;} 
+.win-popup-wrap .inner-contents .table-cont h2.event-title {font-size: 24px;margin-bottom: 15px; } 
+.win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 60px; } 
+.win-popup-wrap .inner-contents .table-cont .tb-tit {margin-bottom: 16px; font-size: 16px; line-height: 22px; font-weight: bold;}
+.win-popup-wrap .inner-contents .table-cont .tb_row table tr {display: table-row !important; } 
+.win-popup-wrap .inner-contents .table-cont .tb_row table tr th,
+.win-popup-wrap .inner-contents .table-cont .tb_row table tr td {display: table-cell !important;width: unset !important;max-width: unset !important; } 
+.win-popup-wrap .inner-contents .search-result .table-cont .tb_row table tr.winner-row {border: 2px solid #da0f47 !important; } 
+.win-popup-wrap.event-popup .ev-detail-top { margin: 0; padding: 48px 0; }
+.win-popup-wrap.event-popup .ev-detail-top .tit-wrap .tit { margin-top: 6px; padding: 0; }
+.win-popup-wrap.event-popup .ev-detail-top .tit-wrap .date { margin-top: 12px; line-height: 26px; font-size: 18px; }
+.win-popup-wrap.event-popup .search-box { max-width: 100%; text-align: center; }
+.win-popup-wrap.event-popup .form-wrap .forms .tit { display: none; }
+.win-popup-wrap.event-popup .form-wrap .forms .conts .input-wrap { display: inline-block; max-width: 440px; width: calc(100% - 78px); vertical-align: top; }
+.win-popup-wrap.event-popup .form-wrap .forms .btn { margin-left: 10px; }
+.search-result-title-default { color: #da0f47; font-size: 30px; }
+.search-result-title-default + .no-result-msg { margin-top: 40px; }
+
+/* New 당첨자 발표 */
+.win-popup-wrap .tit-area {padding-bottom: 60px;margin-bottom: 0; } 
+.win-popup-wrap .form-wrap.search-box {padding-right: 0; } 
+.win-popup-wrap .form-wrap.search-box .forms .tit {display: none; } 
+.win-popup-wrap .form-wrap.search-box .forms .conts {width: 100%; } 
+.win-popup-wrap .form-wrap.search-box .forms .conts .input-box {display: flex; justify-content: center; } 
+.win-popup-wrap .form-wrap.search-box .forms .conts .input-box .input-wrap {width: 100%;max-width: 440px;} 
+.win-popup-wrap .form-wrap.search-box .forms .conts .input-box button.btn {min-width: 75px; } 
+.win-popup-wrap .inner-contents {margin-top: 0;padding-top: 70px; } 
+.win-popup-wrap .inner-contents .event-win-result {display: flex;flex-direction: column;padding-bottom: 40px; } 
+.win-popup-wrap .inner-contents .event-win-result::before {content: "축하합니다!";font-size: 0;width: 109px;height: 109px;margin-bottom: 30px;margin-left: auto;margin-right: auto;background-image: url(/kr/event/common/images/event_win_icon_yes.png);background-repeat: no-repeat;background-position: 0 0;background-size: contain; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner {min-width: 70vw;text-align: center;padding-left: 30px;padding-right: 30px;display: flex;flex-direction: column; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner + .event-winner {margin-top: 50px;padding-top: 50px;border-radius: 1px;border-top: 2px dotted #d0d0d0; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner .winner-goods {color: #da0f47;font-size: 27px;font-weight: bold;line-height: 1.3;margin: 0; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info {color: #000;font-size: 21px;display: flex;justify-content: center;align-items: center;gap: 25px;margin-top: 22px; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info .winner-name {word-break: break-all; } 
+.win-popup-wrap .inner-contents .event-win-result .event-winner .win-date {color: #aeaeae;font-size: 19px;margin-top: 18px; } 
+.win-popup-wrap .inner-contents.sorry .event-win-result::before {background-image: url(/kr/event/common/images/event_win_icon_no.png); } 
+.win-popup-wrap .inner-contents.sorry .event-win-result .sorry-desc {color: #000;font-size: 27px;font-weight: bold;text-align: center;margin: 0; } 
+.win-popup-wrap .inner-contents.sorry .event-win-result .sorry-desc span {color: #5d5d5d;font-size: 20px;font-weight: normal;display: block;margin-top: 15px; } 
+
+/* Mobile */
+.mdevice .win-popup-wrap .tit-area {height: auto;padding-bottom: 30px; } 
+.mdevice .win-popup-wrap .inner-contents {padding-top: 60px; } 
+.mdevice .win-popup-wrap .inner-contents .event-win-result::before {margin-bottom: 15px; } 
+.mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-goods {font-size: 22px;text-align: center; } 
+.mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info {font-size: 17px;width: 100%;flex-direction: column;gap: 15px;margin-top: 15px; } 
+.mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .win-date,
+.mdevice .win-popup-wrap .inner-contents.sorry .event-win-result .sorry-desc span {font-size: 15px; } 
+.mdevice .win-popup-wrap .inner-contents.sorry .event-win-result .sorry-desc {font-size: 22px; } 
+
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info > span {margin-left: 25px; } 
+    .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info > span:first-child {margin-left: 0; } 
+ }
+
+
+
+
+@media screen and (max-width: 767px){
+    .win-popup-wrap { padding: 14px 16px 96px 16px; }
+    .win-popup-wrap .pop-header { padding: 0 30px 14px 0; } 
+    .win-popup-wrap .pop-header .tit { font-size: 16px; line-height: 24px; } 
+    .win-popup-wrap .win-btn-close { top: 12px; right: 9px; } 
+    .win-popup-wrap .win-btn-close::before { margin: -10px 0 0 -10px; width: 20px; height: 20px; }
+    .win-popup-wrap .pop-conts .tit-wrap .h2-tit { font-size: 20px; line-height: 28px; } 
+    .win-popup-wrap .pop-conts .h3-tit { font-size: 13px; line-height: 21px; } 
+    .win-popup-wrap .pop-conts .btn-group { padding-top: 32px; } 
+    .win-popup-wrap .pop-footer { position: fixed; bottom: 0; width: 100%; margin: 0; padding: 0; } 
+    .win-popup-wrap .pop-footer .btn-group button, .win-popup-wrap .pop-footer .btn-group a { border-radius: 0; } 
+
+    /* 팝업: 당첨자발표 */
+    .win-popup-wrap.event-popup .ev-detail-top { padding: 32px 0; }
+    .win-popup-wrap.event-popup .ev-detail-top .tit-wrap {margin-top: 0;}
+    .win-popup-wrap.event-popup .ev-detail-top .tit-wrap .date { margin-top: 4px; line-height: 20px; font-size: 14px; }
+    .win-popup-wrap.event-popup .inner-contents {padding-top: 35px !important;}
+    .win-popup-wrap.event-popup .form-wrap .forms .conts { margin: 0; }
+    .win-popup-wrap.event-popup .inner-contents .search-result {padding-bottom: 35px; margin: -5px 0 35px 0;}
+    .win-popup-wrap.event-popup .inner-contents .search-result h1 {font-size: 24px; margin-bottom: 30px;}
+    .win-popup-wrap.event-popup .inner-contents .search-result .no-result-msg { line-height: 20px; font-size: 14px; }
+    .win-popup-wrap.event-popup .inner-contents .table-cont .tb-tit { margin-bottom: 14px; line-height: 20px; font-size: 14px; }
+    .win-popup-wrap.event-popup .inner-contents .table-cont ~ .table-cont {margin-top: 35px; } 
+    .search-result-title-default { line-height: 36px; font-size: 24px; }
+    .search-result-title-default + .no-result-msg { margin-top: 30px; }
+}

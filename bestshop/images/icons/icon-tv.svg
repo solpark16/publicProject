@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_223" data-name="사각형 223" style="fill:none" d="M0 0h35.5v21.75H0z"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke:#000;stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="icon_TV_오디오" data-name="icon_TV/오디오" transform="translate(-350 -561.084)">
+        <g id="그룹_334" data-name="그룹 334" transform="translate(356 574.084)" style="clip-path:url(#clip-path)">
+            <path id="선_18" data-name="선 18" class="cls-4" transform="translate(2.75 19)" d="M3.312 0 0 2"/>
+            <path id="선_19" data-name="선 19" class="cls-4" transform="translate(29.366 19)" d="M3.384 2 0 0"/>
+            <path id="패스_96" data-name="패스 96" d="M15.5 19H20a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5" style="fill-rule:evenodd"/>
+            <rect id="사각형_222" data-name="사각형 222" width="34" height="18" rx="1.5" transform="translate(.75 .75)" style="stroke:#000;stroke-width:1.5px;fill:none"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="icon_benefit03" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <rect id="사각형_339" data-name="사각형 339" width="80" height="80" fill="none"/>
+  <g id="그룹_415" data-name="그룹 415" transform="translate(14.354 7.729)">
+    <path id="빼기_4" data-name="빼기 4" d="M12.881,16.618h0l-6.587-5.3L0,16.618V.362A25.475,25.475,0,0,0,12.912,3.868,25.527,25.527,0,0,0,25.175.732V16.615l-6.294-5.3-6,5.3Z" transform="translate(12.808 47.403)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="타원_89" data-name="타원 89" transform="translate(6.646 6.271)" fill="none" stroke="#000" stroke-width="3">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="17.5" fill="none"/>
+    </g>
+    <circle id="타원_90" data-name="타원 90" cx="26" cy="26" r="26" transform="translate(-0.354 -0.729)" fill="none" stroke="#000" stroke-width="3"/>
+    <path id="합치기_13" data-name="합치기 13" d="M10.81,16.474,4,19.847l1.241-6.713L0,6.55l7.415-.2L10.6,0l3.185,6.348,7.414.2-4.992,6.269,1.176,7.056Z" transform="translate(15.146 15.771)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

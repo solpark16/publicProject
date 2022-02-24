@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke-width:3px;stroke:#da0f47;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="icon_tv_on" transform="translate(-2.462 7)">
+        <path id="사각형_369" data-name="사각형 369" transform="translate(2.462 -7)" style="fill:#fff" d="M0 0h48v48H0z"/>
+        <g id="그룹_703" data-name="그룹 703" transform="translate(5.598 4.134)">
+            <path id="선_18" data-name="선 18" class="cls-2" transform="translate(3.176 21.944)" d="M3.825 0 0 2.31"/>
+            <path id="선_19" data-name="선 19" class="cls-2" transform="translate(33.916 21.944)" d="M3.908 2.31 0 0"/>
+            <path id="패스_96" data-name="패스 96" d="M15.616 19h5.2a.866.866 0 0 1 0 1.732h-5.2a.866.866 0 0 1 0-1.732" transform="translate(2.285 2.944)" style="fill:#da0f47;fill-rule:evenodd;stroke:#da0f47"/>
+            <rect id="사각형_222" data-name="사각형 222" width="39.268" height="20.789" rx="1.5" transform="translate(.866 .866)" style="stroke:#da0f47;fill:none;stroke-width:3px"/>
+        </g>
+    </g>
+</svg>
