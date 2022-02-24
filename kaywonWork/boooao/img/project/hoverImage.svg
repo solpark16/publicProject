@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="175" viewBox="0 0 175 175">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="108" height="58" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_339" data-name="그룹 339" transform="translate(-1273 -489)">
+    <g id="타원_325" data-name="타원 325" transform="translate(1273 489)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="87.5" cy="87.5" r="87.5" stroke="none"/>
+      <circle cx="87.5" cy="87.5" r="86" fill="none"/>
+    </g>
+    <g id="스크롤_그룹_15" data-name="스크롤 그룹 15" transform="translate(1307 548)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <text id="Visit_Website" data-name="Visit
+Website" transform="translate(54 21)" fill="#fff" font-size="28" font-family="ITCAvantGardeStd-Md, ITC Avant Garde Gothic Std" font-weight="500"><tspan x="-27.566" y="0">Visit</tspan><tspan x="-53.662" y="36">Website</tspan></text>
+    </g>
+  </g>
+</svg>

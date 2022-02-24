@@ -1,0 +1,70 @@
+body {background-color: black; color: white; }::-webkit-scrollbar { display: none; }
+
+.logosBox {
+    position: fixed;
+    border: solid 6px white;
+    width: calc(100vw * 1324 / 1920);
+    height: calc(100vw * 410 / 1920);
+    z-index: 190;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logosBox h1 {font-size: calc(100vw * 62 / 1920); margin-top: calc(100vw * 62 / 1920); margin-left: calc(100vw * 114 / 1920); margin-bottom: calc(100vw * 49 / 1920); display: inline-block;}
+.logosBox p {margin-left: calc(100vw * 114 / 1920); margin-right: calc(100vw * 114 / 1920); font-size: calc(100vw * 26 / 1920); font-family: 'AppleSDGothicNeoM'; line-height: calc(100vw * 56 / 1920); word-break: keep-all;}
+
+
+.logosList {
+  margin-top: calc(100vw * 100 / 1920);
+  /* width: 105%; */
+  /* margin: 0 auto; */
+  /* text-align: center; */
+}
+
+.logosWord {
+    /* width: 100px; */
+    display: inline-block;
+    /* float: left; */
+    /* position: relative; */
+    /* border: 1px solid red; */
+
+  }
+
+
+
+  .logos {
+    font-family: 'AppleSDGothicNeoB';
+    /* border: 1px solid blue; */
+    /* width: 100%; */
+    /* position: absolute; */
+      /* position: fixed; */
+    cursor: pointer;
+    /* display: block; */
+    /* width: 40px;
+    height: 40px; */
+    -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: calc(100vw * 62 / 1920);
+  /* margin-top: 50px; */
+  line-height: calc(100vw * 120 / 1920);
+  margin-left: calc(100vw * 10 / 1920);
+  margin-right: calc(100vw * 10 / 1920);
+
+  }
+
+  .logosBorder {
+    position: relative;
+    top: calc(100vw * 10 / 1920);
+    margin-left: calc(100vw * 30 / 1920);
+    display: inline-block;
+    width: calc(100vw * 600 / 1920);
+    /* height: 1px; */
+    border: solid calc(100vw * 3 / 1920) white;
+    /* margin-top: 22.8px;
+    margin-bottom: 15.5px; */
+}

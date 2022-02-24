@@ -1,0 +1,73 @@
+html, body
+{
+  width:100%;
+  height:100vh;
+  overflow-y: hidden;
+  /* overflow:hidden; */
+}
+
+/* section {
+    width:100%;
+    height:100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
+  } */
+
+.videoSection {
+    /* box-sizing: border-box; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+.testSection {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.mainVideo {
+    /* object-fit: cover; */
+}
+.mainVideo0 {
+    background-color: red;
+}
+.mainVideo1 {
+    background-color: blue;
+    /* display: none; */
+}
+.mainVideo2 {
+    background-color: yellow;
+    /* display: none; */
+}
+
+.video1Re {
+    /* display: none; */
+}
+.video2Re {
+    /* display: none; */
+}
+.sectionEls {
+    width:100%;
+    height:100vh;
+    
+}
+.disNone {
+    display:none;
+}
+
+.videos {
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+}
+.firstVideo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
