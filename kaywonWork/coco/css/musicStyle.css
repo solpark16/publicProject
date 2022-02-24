@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+/* 초기화 코드 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+li {
+    list-style: none;
+}
+.blind{display:none!important;visibility:hidden!important;position:absolute;margin:0;padding:0;clip:rect(0 0 0 0);pointer-events:none}
+a { 
+    /* color: #fff;  */
+    text-decoration: none;
+}
+body {
+    background-color: #07081a;
+    overflow-y: hidden;
+}
+header{
+    z-index: 3;
+    background-color: #111230;
+    box-sizing: border-box;
+    width: 100%;
+    height: 74px;
+    /* border: solid 1px red; */
+    position: fixed;
+    /* position: relative; */
+}
+header a {
+    width: 211px;
+    /* padding: 0; */
+}
+header #title{
+    margin-top: 11px;
+    margin-left: 50px;
+    display: inline-block;
+
+    z-index: 1;
+    /* background-image: url("/images/cocoLogo.png"); */
+    /* border: solid 1px red; */
+    /* width: 100px;
+    height: 50px; */
+}
+header #title img{
+    /* width: 100px; */
+}
+#gnb {
+    margin-right: 93px;
+    margin-top: 10px;
+    color: white !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#gnb a {
+    color: #fff; 
+}
+header #gnb>li>a:hover {
+    color: #f99e1a;
+    border-bottom: 3px solid #f99e1a;
+}
+.clicked a{
+    color: #f99e1a !important;
+}
+.clicked {
+    border-bottom: 3px solid #f99e1a;
+}
+#gnb li {
+    font-weight: bold;
+    margin-left: 56px;
+    /* border: solid 1px yellow; */
+    font-size: 30px;
+    display: inline-block;
+}
+
+/* 믂직 */
+#storyTitle {
+    opacity: 51%;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    /* top: 126px; */
+    left: 103px;
+    padding-top: 126px;
+}
+#storyTitle h1{
+    color: white;
+    font-weight: bold;
+    font-size: 153.11px;
+}
+.slide-holder{
+    /* width: 1440px; */
+    margin:0 auto;
+    padding-top: 230px;
+    }
+    .slide-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    }
+    .slide-container div {
+        vertical-align: middle;
+    }
+    .slide-stage{
+    position: absolute;
+    line-height: 100%;
+    }
+    
+    .slide-image {
+    float:left;
+    width:300px;
+    height:600px;
+    text-align: center;
+    position: relative;
+    }
+    
+    .imgP {
+        position: absolute;
+        bottom: 80px;
+        color: rgb(129, 129, 129);
+        left: 50%;
+        transform: translate(-50%,0);
+        /* line-height: 200%; */
+        -webkit-transition:.3s;
+        -moz-transition:.3s;
+        -ms-transition:.3s;
+        -o-transition:.3s;
+        transition:.3s;
+    }
+    .slideTitle {
+        line-height: 100%;
+        height: 30px;
+        font-size: 20px;
+        -webkit-transition:.3s;
+        -moz-transition:.3s;
+        -ms-transition:.3s;
+        -o-transition:.3s;
+        transition:.3s;
+        /* margin-bottom: 50px; */
+    }
+    .slideP{
+        /* margin-top: 20px; */
+        font-size: 8px ;
+        
+        
+        /* font-weight: bold; */
+    }
+
+    #slideP3, #slideP4 {
+        margin-top: 20px;
+    }
+
+
+
+    .slide-image img{ 
+     position: absolute;
+    display: block;
+    width:100%;
+    margin:auto auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%); 
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+    }
+
+    /* .slide-image img:hover{
+        width: 800px;
+        filter: brightness(100%); 
+    } */
+
+    .slide-pager{
+    position:relative;
+    }
+    .slide-control-prev {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    top: 280px;
+    left: -30px;
+    }
+    .slide-control-next{
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    right: -30px;
+    top: 280px;
+    }
+
+    #miguelTest img:hover {
+        vertical-align: middle;
+        width: 800px;
+        
+    }

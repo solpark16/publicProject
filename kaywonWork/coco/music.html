@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coco_music</title>
+    <link rel="stylesheet" href="./css/musicStyle.css"/> 
+</head>
+<body>
+    <header>
+        <a href="#">
+            <div id="title">
+                <img src="./images/cocoLogo.png">
+            </div>
+        </a>
+        <nav>
+            <ul id="gnb">
+               <li><a href="character.html">Character</a></li>
+               <li><a href="story.html">Story</a></li>
+               <li class="clicked"><a href="music.html">Music</a></li>
+               <li><a href="trailer.html">Trailer</a></li>
+            </ul>
+    </header>
+    <div id="storyTitle">
+        <a href="#"><h1>사운드 트랙</h1></a>
+        <h2>"코코"의 오리지널 사운드 트랙을 감상할 수 있습니다!</h2>
+    </div>
+
+    <div class="slide-holder">
+        <div class="slide-pager">
+            <div class="slide-control-prev"><img src="./images/prev_over.png"></div>
+            <div class="slide-control-next"><img src="./images/next_over.png"></div>
+        </div>
+        <div class="slide-container">
+            <div class="slide-stage">
+                <div class="slide-image" id="slide1">
+                    <a onclick="play()">
+                        <img src="./images/musicImg1.png" id="slideImg1"/>
+                    </a>
+                    <div class="imgP" id="imgP1">
+                        <p class="slideTitle" id="slideTitle1">La Llorona</p><br>
+                        <p class="slideP" id="slideP1">Alanna Ubach &<br> Antonio Sol</p>
+                    </div>
+                </div>
+
+                <div class="slide-image" id="slide2">
+                    <a onclick="play2()">
+                        <img src="./images/musicImg2.png" id="slideImg2"/>
+                    </a>
+                    <div class="imgP" id="imgP2">
+                        <p class="slideTitle" id="slideTitle2">Un Poco Loco</p><br>
+                        <p class="slideP" id="slideP2">Anthony Gonzalez &<br> Gael García Bernal</p>
+                    </div>
+                </div>
+
+                <div class="slide-image" id="slide3">
+                    <a onclick="play3()">
+                        <img src="./images/musicImg3.png" id="slideImg3"/>
+                    </a>
+                    <div class="imgP" id="imgP3">
+                        <p class="slideTitle" id="slideTitle3">Remember Me (Lullaby)</p>
+                        <p class="slideP" id="slideP3">Gael García Bernal,<br>
+                            Gabriella Flores & Libertad Garcia Fonzi</p>
+                    </div>
+                </div>
+
+                <div class="slide-image" id="slide4">
+                    <a onclick="play4()">
+                        <img src="./images/musicImg4.png" id="slideImg4"/>
+                    </a>
+                    <div class="imgP" id="imgP4">
+                        <p class="slideTitle" id="slideTitle4">Remember Me (Reunion)</p>
+                        <p class="slideP" id="slideP4">Anthony Gonzalez &<br> Ana Ofelia Murguía</p>
+                    </div>
+                </div>
+
+                <div class="slide-image" id="slide5">
+                    <a onclick="play5()">
+                        <img src="./images/musicImg5.png" id="slideImg5"/>
+                    </a>
+                    <div class="imgP" id="imgP5">
+                        <p class="slideTitle" id="slideTitle5">Proud Corazón</p>
+                        <p class="slideP" id="slideP5">Anthony Gonzalez</p>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- audio -->
+    <audio id='audio1' src='./mp3/song1.mp3'></audio>
+    <audio id='audio2' src='./mp3/song2.mp3'></audio>
+    <audio id='audio3' src='./mp3/song3.mp3'></audio>
+    <audio id='audio4' src='./mp3/song4.mp3'></audio>
+    <audio id='audio5' src='./mp3/song5.mp3'></audio>
+
+
+    
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/musicScript.js"></script>
+</body>
+</html>
