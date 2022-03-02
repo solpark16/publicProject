@@ -759,8 +759,6 @@ const betty = {
 
     teamVideo: "./mp4/teamVideo/teamVideo12.mp4",
 
-    // no5: "blankMember",
-
     memberPic1: "./img/profile/12_betty/profile0.jpg",
     memberPic2: "./img/profile/12_betty/profile1.jpg",
     memberPic3: "./img/profile/12_betty/profile2.jpg",
@@ -882,8 +880,6 @@ const sumary = {
     detail3Mem: "김채은",
 
     teamVideo: "./mp4/teamVideo/teamVideo14.mp4",
-
-    // no5: "blankMember",
 
     memberPic1: "./img/profile/14_sumary/profile0.jpg",
     memberPic2: "./img/profile/14_sumary/profile1.jpg",
@@ -1007,8 +1003,6 @@ const marchi = {
 
     teamVideo: "./mp4/teamVideo/teamVideo16.mp4",
 
-    // no5: "blankMember",
-
     memberPic1: "./img/profile/16_marchi/profile0.jpg",
     memberPic2: "./img/profile/16_marchi/profile1.jpg",
     memberPic3: "./img/profile/16_marchi/profile2.jpg",
@@ -1069,8 +1063,6 @@ const zipKid = {
 
     teamVideo: "./mp4/teamVideo/teamVideo17.mp4",
 
-    // no5: "blankMember",
-
     memberPic1: "./img/profile/17_zipKid/profile0.jpg",
     memberPic2: "./img/profile/17_zipKid/profile1.jpg",
     memberPic3: "./img/profile/17_zipKid/profile2.jpg",
@@ -1130,8 +1122,6 @@ const angly = {
     detail3Mem: "",
 
     teamVideo: "./mp4/teamVideo/teamVideo18.mp4",
-
-    // no5: "blankMember",
 
     memberPic1: "./img/profile/18_angly/profile0.jpg",
     memberPic2: "./img/profile/18_angly/profile1.jpg",
@@ -1257,10 +1247,6 @@ const aptStore = {
 
     teamVideo: "./mp4/teamVideo/teamVideo20.mp4",
 
-    // no3: "blankMember",
-    // no4: "blankMember",
-    // no5: "blankMember",
-
     memberPic1: "./img/profile/20_aptStore/profile0.jpg",
     memberPic2: "./img/profile/20_aptStore/profile1.jpg",
     memberPic3: "./img/profile/20_aptStore/profile2.jpg",
@@ -1321,8 +1307,6 @@ const seasonin = {
 
     teamVideo: "./mp4/teamVideo/teamVideo21.mp4",
 
-    // no3: "blankMember",
-    // no4: "blankMember",
     no5: "blankMember",
 
     memberPic1: "./img/profile/21_seasonin/profile0.jpg",
@@ -1385,7 +1369,6 @@ const woozu = {
 
     teamVideo: "./mp4/teamVideo/teamVideo22.mp4",
 
-    // no3: "blankMember",
     no4: "blankMember",
     no5: "blankMember",
 
@@ -1449,10 +1432,6 @@ const ghmss = {
 
     teamVideo: "./mp4/teamVideo/teamVideo23.mp4",
 
-    // no3: "blankMember",
-    // no4: "blankMember",
-    // no5: "blankMember",
-
     memberPic1: "./img/profile/23_ghmss/profile0.jpg",
     memberPic2: "./img/profile/23_ghmss/profile1.jpg",
     memberPic3: "./img/profile/23_ghmss/profile2.jpg",
@@ -1513,8 +1492,6 @@ const ctrlz = {
 
     teamVideo: "./mp4/teamVideo/teamVideo41.mp4",
 
-    // no3: "blankMember",
-    // no4: "blankMember",
     no5: "blankMember",
 
     memberPic1: "./img/profile/41_1212/profile0.png",
@@ -1575,7 +1552,6 @@ const verycious = {
 
     teamVideo: "./mp4/teamVideo/teamVideo42.mp4",
 
-    // no3: "blankMember",
     no4: "blankMember",
     no5: "blankMember",
 
@@ -1699,7 +1675,6 @@ const floom = {
 
     teamVideo: "./mp4/teamVideo/teamVideo44.mp4",
 
-    // no3: "blankMember",
     no4: "blankMember",
     no5: "blankMember",
 
@@ -1824,8 +1799,6 @@ const hangul = {
 
     teamVideo: "./mp4/teamVideo/teamVideo46.mp4",
 
-    // no2: "blankMember",
-    // no3: "blankMember",
     no4: "blankMember",
     no5: "blankMember",
 

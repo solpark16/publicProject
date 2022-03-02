@@ -1,7 +1,52 @@
-console.log("menu!")
+const $menuPage = $('.menuPage');
+
+$menuPage.append(`<div class="divCircle">
+<div class="menuBox">
+    <div class="circle circle1">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle2">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle3">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle4">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle5">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle6">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle7">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle8">
+        <img src="./img/menuCircle.svg">
+    </div>
+    <div class="circle circle9">
+        <img src="./img/menuCircle.svg">
+    </div>
+</div>
+</div>
+<div class="divMenu">
+<ul>
+    <li><a href="./index.html">BOOOAO</a></li>
+    <li>
+        <a href="./index.html#section5">OUR, OWN</a>
+        <p class="idealFigure"><a href="./idealFigure.html">Ideal Figure</a></p>
+        <p><a href="./logos.html">Logos, Design A Reason</a></p>
+    </li>
+
+    <li><a href="./projects.html">PROJECTS</a></li>
+    <li><a href="./students.html">STUDENTS</a></li>
+    <li><a href="./curriculum.html">CURRICULUM</a></li>
+</ul>
+</div>`)
 
 const $menu = $('.menu');
-const $menuPage = $('.menuPage');
 const $menuList = $('.menuPage li');
 
 let menuSwitch = 0;
@@ -17,10 +62,6 @@ $menu.click(function(){
         menuSwitch = 1;
         $('.blackIcon').css({'display':'none'});
         $('.whiteIcon').css({'display':'block'});
-        // $('body').css({'overflow':'hidden'});
-        // $('.sectionEls').css({
-        //     'display':'none'
-        // })
     }
     else if (menuSwitch == 1) {
         $menuPage.css({
@@ -32,10 +73,6 @@ $menu.click(function(){
         menuSwitch = 0;
         $('.blackIcon').css({'display':'block'});
         $('.whiteIcon').css({'display':'none'});
-        // $('body').css({'overflow':'auto'});
-        // $('.sectionEls').css({
-        //     'display':'inline'
-        // })
     }
     
 })

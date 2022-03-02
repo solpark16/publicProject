@@ -2,10 +2,6 @@ const $typing = $('.typing');
 var typingEl = document.querySelector('.team');
 const otherBtn = document.querySelector('#scroll-section6 .afterOursText .otherBtn button');
 
-console.log($typing);
-console.log(typingEl);
-console.log(project);
-
 Array.prototype.shuffle = function () {
   let length = this.length;
   while (length) {

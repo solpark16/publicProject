@@ -1,6 +1,3 @@
-console.log("Script Load");
-
-
 const $logosList = $('.logosList');
 const $logosText = $('.logosText')
 
@@ -16,28 +13,18 @@ Array.prototype.shuffle = function () {
   };
   
 function mainLoad() {
-  console.log("gg");
   student2.shuffle();
-  // $projectList.text.empty();
   for (let i = 0; i < student2.length; i++) {
-  $logosList.append(`
-  <div class="logosWord">
-    <p class="logos" id="logos${student2[i].num}">${student2[i].logos}</p>
-  </div>`);
+    $logosList.append(`
+      <div class="logosWord">
+        <p class="logos" id="logos${student2[i].num}">${student2[i].logos}</p>
+      </div>`
+    );
   }
 }
-mainLoad() // 모든 걸 시작하는 함수...
-
-
-
-
-
-
-
+mainLoad()
 
 const $logos = $('.logos')
-
-
 
 let currentDroppable = null;
 for (let i = 0; i < $logos.length; i++) {
@@ -68,12 +55,11 @@ for (let i = 0; i < $logos.length; i++) {
 
         let droppableBelow = elemBelow.closest('.droppable');
         if (currentDroppable != droppableBelow) {
-          if (currentDroppable) { // null when we were not over a droppable before this event
+          if (currentDroppable) {
             leaveDroppable(currentDroppable);
           }
           currentDroppable = droppableBelow;
-          if (currentDroppable) { // null if we're not coming over a droppable now
-            // (maybe just left the droppable)
+          if (currentDroppable) {
             enterDroppable(currentDroppable);
           }
         }
@@ -90,25 +76,18 @@ for (let i = 0; i < $logos.length; i++) {
 
 
 
-    function enterDroppable(elem) {
-        
-        console.log("이거 맞아?")
-    //   elem.style.background = `${student[i].color}`;
+  function enterDroppable(elem) {
     $logosText.empty();
     $logosText.append(`${student2[i].logosReason} [${student2[i].id}] ${student2[i].name}`);
-    }
+  }
 
-    function leaveDroppable(elem) {
-    //   elem.style.background = '';
-      $logosText.empty();
-    $logosText.append(`
-    이유를 디자인하다. 우리는 이성(Logos)을 통해 생각하고 새로운 것들을 만들어갑니다.  화면에는 다양한 단어들이 보여집니다. 상자 속 빈칸에 단어들을 넣어보며 학생들의 여러가지 이유들을 함께 디자인 해보세요.`);
-      
-    }
-
-    $logos[i].ondragstart = function() {
-      return false;
-    };
+  function leaveDroppable(elem) {
+    $logosText.empty();
+    $logosText.append(
+      `이유를 디자인하다. 우리는 이성(Logos)을 통해 생각하고 새로운 것들을 만들어갑니다.  화면에는 다양한 단어들이 보여집니다. 상자 속 빈칸에 단어들을 넣어보며 학생들의 여러가지 이유들을 함께 디자인 해보세요.`
+    );
+  }
+  $logos[i].ondragstart = function() {
+    return false;
+  };
 }
-    //-----------------------------
-

@@ -1,195 +1,38 @@
-
 ::-webkit-scrollbar { display: none; }
 
+.whiteIcon {display: none;}
 
-.whiteIcon {
-    display: none;
-}
+/* main page */
+.sectionTypes {background-color: black;color: white;width: 100%;height: 100vh;z-index: 30;}
+.sectionTypes .mainTypeList {display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; margin: 0 auto; text-align: center;}
+.sectionTypes .mainTypeList li {display: inline-block;cursor: pointer;}
+.sectionTypes .mainTypeList .type1 {margin-right: calc(100vw*364/1920);}
+.sectionTypes .mainTypeList .type2 {margin-right: calc(100vw*329/1920);}
+.sectionTypes .mainTypeList .type4 {margin-right: calc(100vw*348/1920); margin-top: calc(100vw*228/1920);}
+.sectionTypes .mainTypeList li .typeRate {font-size: calc(100vw*36/1920); margin-bottom: calc(100vw*4/1920);}
+.sectionTypes .mainTypeList li .typeName {font-family: 'ITCAvantGardeStd-Bold'; font-size: calc(100vw*80/1920);}
 
-.sectionTypes {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    z-index: 30;
-    /* display: none; */
-}
+/* object page */
+.sectionObjects {display: none;background-color: white;z-index: 100;}
+.sectionObjects .sectionTop {width: 100%;height: 269px;}
+.sectionObjects .sectionTop .backBtn {position: absolute;top: 141px;left: calc(100vw * 75 / 1920);}
+.sectionObjects .sectionTop .backBtn img {width: calc(100vw * 45 / 1920);}
+.sectionObjects .sectionTop .typeTitle {font-family: 'AppleSDGothicNeoM';position: absolute;font-size: calc(100vw * 36 / 1920);;top: 126px;left: calc(100vw * 156 / 1920);}
+.sectionObjects .sectionTop .typeTitle strong {font-family: 'ITCAvantGardeStd-Md';font-size: calc(100vw * 48 / 1920);margin-right: calc(100vw * 44 / 1920);}
+.sectionObjects .sectionTop .typeList {position: absolute;font-family: 'ITCAvantGardeStd-Md';top: 141px;right: calc(100vw * 66 / 1920);}
+.sectionObjects .sectionTop .typeList li{letter-spacing :1px;margin-left: calc(100vw * 5 / 1920);margin-right: calc(100vw * 5 / 1920);font-size: calc(100vw * 24 / 1920);display: inline-block;cursor: pointer;}
 
-.mainTypeList {display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; margin: 0 auto; text-align: center;}
-.mainTypeList li {
-    display: inline-block;
-    cursor: pointer;
-    /* border: solid 1px blue; */
-}
-.mainTypeList .type1 {margin-right: calc(100vw*364/1920);}
-.mainTypeList .type2 {margin-right: calc(100vw*329/1920);}
-.mainTypeList .type4 {margin-right: calc(100vw*348/1920); margin-top: calc(100vw*228/1920);}
+.sectionObjects .objectList {width:100%;margin: 0 auto;text-align: center;}
+.sectionObjects .objectList .objectLi {height: calc(100vw * 495 / 1800);width: calc(100vw * 414 / 1800);position: relative;display: inline-block; -webkit-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;transition:.5s;margin-left: calc(100vw * 20 / 1800);margin-right: calc(100vw * 20 / 1800);margin-bottom: 52px;}
+.sectionObjects .objectList .objectLi img {width: calc(100vw * 414 / 1800);padding-bottom:100%;position: absolute;left: 0;}
+.sectionObjects .objectList .objectLi .objectText {text-align: left;box-sizing: border-box;position: absolute;width: calc(100vw * 414 / 1800);height: calc(100vw * 414 / 1800);top: 0;left: calc(100vw * 414 / 1800);display: none;padding-top: calc(100vw * 72 / 1800);padding-left: calc(100vw * 25 / 1800);padding-right: calc(100vw * 25 / 1800);background-color: #DADFE5;}
+.sectionObjects .objectList .objectLi .objectText p {font-size: calc(100vw * 18 / 1800);font-family: 'AppleSDGothicNeoM';}
+.sectionObjects .objectList .objectLi .objectText p.text1 {margin-bottom: 9px;}
+.sectionObjects .objectList .objectLi .objectText p.text1 strong {font-size: calc(100vw * 24 / 1800);;font-family: 'AppleSDGothicNeoB';}
+.sectionObjects .objectList .objectLi .objectText .objectReason {word-break: keep-all;font-size: calc(100vw * 24 / 1800);line-height: calc(100vw * 42 / 1800);}
+.sectionObjects .objectList .objectLi .objectText .objectReason.reasonobject {word-break: keep-all;font-size: calc(100vw * 18 / 1800) !important;line-height: calc(100vw * 27 / 1800) !important;}
+.sectionObjects .objectList .objectLi .objectText .objectReason.maxReasonobject {word-break: keep-all;font-size: calc(100vw * 12 / 1800) !important;line-height: calc(100vw * 23 / 1800) !important;}
+.sectionObjects .objectList .objectLi .objectText .objectLine {width: 100%;border: solid 1px black;margin-top: 22.8px;margin-bottom: 15.5px;}
+.sectionObjects .objectList .objectLi .code {font-family: 'AppleSDGothicNeoM';font-size: calc(100vw * 29 / 1800);position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);}
 
-.typeRate {font-size: calc(100vw*36/1920); margin-bottom: calc(100vw*4/1920);}
-.typeName {font-family: 'ITCAvantGardeStd-Bold'; font-size: calc(100vw*80/1920);}
-
-/* object Page */
-
-.sectionObjects {
-    display: none;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh; */
-    background-color: white;
-    z-index: 100;
-}
-
-.sectionTop {
-    width: 100%;
-    height: 269px;
-}
-
-.backBtn {
-    position: absolute;
-    top: 141px;
-    left: calc(100vw * 75 / 1920);
-    
-}
-.backBtn img {
-    width: calc(100vw * 45 / 1920);
-}
-
-.typeTitle {
-    font-family: 'AppleSDGothicNeoM';
-    position: absolute;
-    font-size: calc(100vw * 36 / 1920);;
-    top: 126px;
-    left: calc(100vw * 156 / 1920);
-}
-
-.typeTitle strong {
-    font-family: 'ITCAvantGardeStd-Md';
-    font-size: calc(100vw * 48 / 1920);
-    margin-right: calc(100vw * 44 / 1920);
-}
-
-.typeList {
-    position: absolute;
-    font-family: 'ITCAvantGardeStd-Md';
-    top: 141px;
-    right: calc(100vw * 66 / 1920);
-}
-
-.typeList li{
-    letter-spacing :1px;
-    margin-left: calc(100vw * 5 / 1920);
-    margin-right: calc(100vw * 5 / 1920);
-    font-size: calc(100vw * 24 / 1920);
-    display: inline-block;
-    cursor: pointer;
-}
-
-.objectList {
-    /* width: 1800px; */
-    width:100%;
-    /* max-width:1900px; */
-    margin: 0 auto;
-    text-align: center;
-}
-
-.objectLi {
-    /* width: 414px; */
-    height: calc(100vw * 495 / 1800);
-    width: calc(100vw * 414 / 1800);
-    position: relative;
-    display: inline-block; 
-    -webkit-transition:.5s;
-    -moz-transition:.5s;
-    -ms-transition:.5s;
-    -o-transition:.5s;
-    transition:.5s;
-    /* border: solid 1px blue; */
-    margin-left: calc(100vw * 20 / 1800);
-    margin-right: calc(100vw * 20 / 1800);
-    margin-bottom: 52px;
-}
-
-.objectLi img {
-    /* width: 414px;
-    height: 414px; */
-    width: calc(100vw * 414 / 1800);
-    padding-bottom:100%;
-    position: absolute;
-    left: 0;
-}
-
-.objectText {
-    text-align: left;
-    box-sizing: border-box;
-    position: absolute;
-    /* width: 414px; */
-    width: calc(100vw * 414 / 1800);
-    height: calc(100vw * 414 / 1800);
-    /* border: 1px solid red; */
-    top: 0;
-    left: calc(100vw * 414 / 1800);
-    display: none;
-    padding-top: calc(100vw * 72 / 1800);
-    padding-left: calc(100vw * 25 / 1800);
-    padding-right: calc(100vw * 25 / 1800);
-    background-color: #DADFE5;
-}
-
-.objectText p {
-    font-size: calc(100vw * 18 / 1800);
-    font-family: 'AppleSDGothicNeoM';
-}
-
-.text1 {
-    margin-bottom: 9px;
-}
-
-.objectText .objectReason {
-    word-break: keep-all;
-    font-size: calc(100vw * 24 / 1800);
-    line-height: calc(100vw * 42 / 1800);
-}
-.reasonobject {
-    word-break: keep-all;
-    font-size: calc(100vw * 18 / 1800) !important;
-    line-height: calc(100vw * 27 / 1800) !important;
-}
-.maxReasonobject {
-    word-break: keep-all;
-    font-size: calc(100vw * 12 / 1800) !important;
-    line-height: calc(100vw * 23 / 1800) !important;
-}
-
-strong {
-    font-size: calc(100vw * 24 / 1800);;
-    font-family: 'AppleSDGothicNeoB';
-}
-
-
-
-.objectLine {
-    width: 100%;
-    /* height: 1px; */
-    border: solid 1px black;
-    margin-top: 22.8px;
-    margin-bottom: 15.5px;
-}
-
-.code {
-    font-family: 'AppleSDGothicNeoM';
-    font-size: calc(100vw * 29 / 1800);
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.topBtn {
-    z-index: 199;
-    position: fixed;
-    bottom: calc(100vw * 50 / 1920);
-    right: calc(100vw * 50 / 1920);
-    cursor: pointer;
-}
+.sectionObjects .topBtn {z-index: 199;position: fixed;bottom: calc(100vw * 50 / 1920);right: calc(100vw * 50 / 1920);cursor: pointer;}

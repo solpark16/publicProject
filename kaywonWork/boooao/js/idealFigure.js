@@ -3,6 +3,7 @@ const $typeTitle = $('.typeTitle');
 
 var br = "<br>"
 
+// 메인 페이지 퍼센테이지 애니메이션
 $(function() {
     var cnt0 = 0;
     var cnt1 = 0;
@@ -63,8 +64,6 @@ $(function() {
     }
 });
 
-console.log($objectList);
-
 const $typeListLi = $('.typeList li');
 const $objectLi = $('.objectLi');
 const $objectText = $('.objectText');
@@ -75,59 +74,32 @@ const $sectionTypes = $('.sectionTypes');
 const $sectionObjects = $('.sectionObjects');
 
 function changeEvent() {
-    console.log("changeEvent")
     const $objectLi = $('.objectLi');
     const $objectText = $('.objectText');
     for (let i = 0; i < student.length; i++) {
-        
-
         if ((i+1)%3 === 0) {
-        $objectLi.eq(i).after(br);
+            $objectLi.eq(i).after(br);
         }
         $objectLi.eq(i).mouseover(function(){
-            // $projectThumb.empty();
-            // console.log(i);
-            console.log("hover");
             $objectText.eq(i).css({
                 'display': 'inline-block'
             })
             $objectLi.eq(i).css({
                 'width' : 'calc(100vw * 828 / 1800)'
             })
-            
         });
         $objectLi.eq(i).mouseleave(function(){
-            // $projectThumb.empty();
-            // console.log(i);
-            console.log("leave");
             $objectLi.eq(i).css({
                 'width' : 'calc(100vw * 414 / 1800)'
             })
             $objectText.eq(i).css({
                 'display': 'none'
             })
-            
         });
-        
     }
-    
 }
-// function addEvent() {
-//     console.log("addEvent")
-//     $typeListLi.eq(0).click(function() {
-//         console.log("Multiflied Click")
-//         $objectList.empty();
-//         type1Show();
-        
-//     })
-//     $typeListLi.eq(1).click(function() {
-//         console.log("Multiflied Click")
-//         $objectList.empty();
-//         type2Show();
-//     })
-//     changeEvent();
-// }
 
+// 셔플
 Array.prototype.shuffle = function () {
     let length = this.length;
     while (length) {
@@ -141,7 +113,6 @@ Array.prototype.shuffle = function () {
 
 function type1Show() {
     student.shuffle();
-    console.log("type1Show")
     $typeTitle.empty();
     $typeTitle.append(`<strong>Multiplied</strong>원동력`);
     for (let i = 0; i < student.length; i++) {
@@ -161,7 +132,6 @@ function type1Show() {
             </li>`)
         }
     }
-    // changeEvent();
 }
 function type2Show() {
     student.shuffle();
@@ -253,12 +223,7 @@ function type5Show() {
     }
 }
 
-// addEvent()
-
-
 function addEvent() {
-    console.log("addEvent")
-
     // 뒤로 가기
     $('.backBtn').click(function() {
         $sectionTypes.css({
@@ -271,7 +236,6 @@ function addEvent() {
 
     // 메인에서 들어가기
     $mainTypeListLi.eq(0).click(function() {
-        console.log("mainTypeListLi Click");
         $sectionTypes.css({
             'display' : 'none'
         })
@@ -283,7 +247,6 @@ function addEvent() {
         changeEvent();
     })
     $mainTypeListLi.eq(1).click(function() {
-        console.log("mainTypeListLi Click");
         $sectionTypes.css({
             'display' : 'none'
         })
@@ -295,7 +258,6 @@ function addEvent() {
         changeEvent();
     })
     $mainTypeListLi.eq(2).click(function() {
-        console.log("mainTypeListLi Click");
         $sectionTypes.css({
             'display' : 'none'
         })
@@ -307,7 +269,6 @@ function addEvent() {
         changeEvent();
     })
     $mainTypeListLi.eq(3).click(function() {
-        console.log("mainTypeListLi Click");
         $sectionTypes.css({
             'display' : 'none'
         })
@@ -319,7 +280,6 @@ function addEvent() {
         changeEvent();
     })
     $mainTypeListLi.eq(4).click(function() {
-        console.log("mainTypeListLi Click");
         $sectionTypes.css({
             'display' : 'none'
         })
@@ -333,31 +293,26 @@ function addEvent() {
 
 
     $typeListLi.eq(0).click(function() {
-        console.log("Multiflied Click")
         $objectList.empty();
         type1Show();
         changeEvent();
     })
     $typeListLi.eq(1).click(function() {
-        console.log("Equals Click")
         $objectList.empty();
         type2Show();
         changeEvent();
     })
     $typeListLi.eq(2).click(function() {
-        console.log("Sum Click")
         $objectList.empty();
         type3Show();
         changeEvent();
     })
     $typeListLi.eq(3).click(function() {
-        console.log("Divided Click")
         $objectList.empty();
         type4Show();
         changeEvent();
     })
     $typeListLi.eq(4).click(function() {
-        console.log("Divided Click")
         $objectList.empty();
         type5Show();
         changeEvent();
@@ -365,11 +320,8 @@ function addEvent() {
 }
 addEvent();
 
-// changeEvent()
-
+// top Button
 const $topBtn = $('.topBtn')
-
 $topBtn.click(function(){
-  console.log("topBtnClick")
   window.scrollTo({ top: 0, behavior: "smooth"});
 })

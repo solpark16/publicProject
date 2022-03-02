@@ -1,12 +1,6 @@
-console.log("Script Load");
-
-// const IMAGE_WIDTH = 1069;
-
 (function($) {
     $(document).ready(function() {
-        console.log('jQuery Ready');
 
-        let isAno = false;
         let cuId = 0;
         let exId = 0;
         let max = void 0
@@ -20,7 +14,6 @@ console.log("Script Load");
         const $wrap = $banner.children('.banner-wrap');
         const $container = $wrap.children('.banner-container');
         const $items = $container.children('.banner-item');
-        const $images = $items.find('img');
         const $paddleNav = $banner.children('.paddle-nav');
         const $btnPaddle = $paddleNav.find('button.arrow');
         const $btnPaddlePrev = $paddleNav.find('button.arrow.prev');
@@ -52,9 +45,6 @@ console.log("Script Load");
             bannerHeight = $win.height();
             $banner.width(bannerWidth).height(bannerHeight);
             $container.width(bannerWidth * max);
-            // $items.width(bannerWidth);
-            // $images.width(bannerWidth).height(bannerHeight);
-            console.log('resize');
 
             slideAnimation(true);
         }
@@ -67,7 +57,6 @@ console.log("Script Load");
             }
 
             const $el = $(this);
-            // const $el = $(e.currentTarget);
             if ($el.is($btnPaddlePrev)) {
                 cuId -= 1;
                 if (cuId < 0) {
@@ -99,7 +88,6 @@ console.log("Script Load");
                 const easing = 'easeOutSine';
 
                 $container.stop(true).animate({ left }, { duration, easing, complete: function(){
-                    // console.log('complete');
                     exId = cuId;
                     isAni = false;
                 } });
@@ -123,27 +111,22 @@ console.log("Script Load");
         }
 
         function imgAni () {
-            console.log(cuId, "애니메이션 확인용이다");
             if(cuId === 0){
                 $img2020.removeClass('on');
             } else if (cuId === 1) {
                 $img2019.removeClass('on');
                 $img2020.addClass('on');
-                console.log("cuid=1");
             } else if (cuId === 2) {
                 $img2018.removeClass('on');
                 $img2019.addClass('on');
                 $img2020.removeClass('on');
-                console.log("cuid=2");
             } else if (cuId === 3) {
                 $img2018.addClass('on');
                 $img2019.removeClass('on');
                 $img2017.removeClass('on');
-                console.log("cuid=2");
             } else if (cuId === 4) {
                 $img2017.addClass('on');
                 $img2018.removeClass('on');
-                console.log("cuid=2");
             } else {
                 $img2020.removeClass('on');
                 $img2019.removeClass('on');

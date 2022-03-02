@@ -1,15 +1,4 @@
-// console.log("students list Load")
-console.log("sang")
 
-// const blank = {
-//     name: "",
-//     id: '',
-//     team: '',
-//     detail: "",
-//     photo: "./img/blank.png",
-//     livePhoto: "./",
-//   };
-  
   // 00 BOOOAO 김지유 황수연 오진환 이아현 박솔
   const A1823K0 = {
     name: "김지유",
