@@ -4,7 +4,6 @@ var timeout;
 window.onwheel = function(){
     clearTimeout(timeout);  //이전 휠 이벤트 제거
     timeout = setTimeout(function(){ //다시 휠 이벤트 발생  0.1초후
-        
     }, 1000);
 };
 
@@ -52,48 +51,6 @@ window.onload = function () {
         });
     });
 }
-(function (global, $) {
-
-    var $menu = $('.floating-menu li'),
-        $contents = $('.scroll'),
-        $doc = $('html, body');
-    $(function () {
-        // 해당 섹션으로 스크롤 이동
-        // span 내껄로 바꿔
-        $menu.on('click', 'span', function (e) {
-            var $target = $(this).parent(),
-                idx = $target.index(),
-                section = $contents.eq(idx),
-                offsetTop = section.offset().top;
-            $doc.stop().animate({ scrollTop: offsetTop }, 600);
-            return false;
-        });
-    });
-
-    // menu class 추가
-    $(window).scroll(function () {
-        var scltop = $(window).scrollTop();
-        $.each($contents, function (idx, item) {
-            var $target = $contents.eq(idx),
-                idx = $target.index(),
-                targetTop = $target.offset().top;
-
-            if (targetTop < scltop) {
-                $menu.removeClass('on');
-                $menu.eq(idx).addClass('on');
-            }
-            if (!(200 < scltop)) {
-                $menu.removeClass('on');
-            }
-        })
-
-    });
-
-    // Go to the TOP
-
-
-}(window, window.jQuery));
-
 
 // 커서
 
@@ -145,7 +102,7 @@ function init() {
 }
 init();
 
-// 휠스크롤 이벤또
+// 휠스크롤 이벤트
 
 // section2 (Project Goal1)
 var section2Img = document.getElementById("section2Image");
@@ -189,13 +146,9 @@ $("#section2").on('mousewheel', function (e) {
         //스크롤  내릴때 
         if (ani1 == false) {
             ani1 = true;
-            console.log("duishgie");
-
-            // elems.style.opacity="1";
             section3Img.style.animationName="section3Move";
             section3Img.style.animationDuration = "1s";
             section3Img.style.animationFillMode = "forwards";
-            // animation-fill-mode: forwards;
             section3Img.style.animationDelay = '0.7s';
         }
 
@@ -204,9 +157,10 @@ $("#section2").on('mousewheel', function (e) {
 });
 
 // sectionSwot
-var sectionSwotImg = document.getElementById("sectionSwotImage");
+var sectionSwotImg = document.getElementById("section4Image");
 var ani4 = false;
 $("#section3").on('mousewheel', function (e) {
+    console.log("section3 wheel")
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -215,7 +169,7 @@ $("#section3").on('mousewheel', function (e) {
         if (ani4 == false) {
             ani4 = true;
 
-            sectionSwotImg.style.animationName="sectionSwotMove";
+            sectionSwotImg.style.animationName="section4Move";
             sectionSwotImg.style.animationDuration = "1s";
             sectionSwotImg.style.animationFillMode = "forwards";
             sectionSwotImg.style.animationDelay = '0.7s';
@@ -227,10 +181,11 @@ $("#section3").on('mousewheel', function (e) {
 
 
 // sectionApproach
-var sectionApTxt = document.getElementById("sectionApText");
-var sectionApImg = document.getElementById("approachContent");
+var sectionApTxt = document.getElementById("section5Text");
+var sectionApImg = document.getElementById("section5Content");
 var ani3 = false;
-$("#sectionSwot").on('mousewheel', function (e) {
+$("#section4").on('mousewheel', function (e) {
+    console.log("section4 wheel")
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -258,10 +213,10 @@ $("#sectionSwot").on('mousewheel', function (e) {
 
 
 // section4 브랜드 아이덴티티
-var section4Img = document.getElementById("section4Image");
-var section4Txt = document.getElementById("section4Text");
+var section19Img = document.getElementById("section19Image");
+var section19Txt = document.getElementById("section19Text");
 var ani2 = false;
-$("#sectionMobile").on('mousewheel', function (e) {
+$("#section18").on('mousewheel', function (e) {
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -271,15 +226,15 @@ $("#sectionMobile").on('mousewheel', function (e) {
             ani2 = true;
             console.log("gotdamn");
 
-            section4Img.style.animationName="section4Move";
-            section4Img.style.animationDuration = "1s";
-            section4Img.style.animationFillMode = "forwards";
-            section4Img.style.animationDelay = '1s';
+            section19Img.style.animationName="section19Move";
+            section19Img.style.animationDuration = "1s";
+            section19Img.style.animationFillMode = "forwards";
+            section19Img.style.animationDelay = '1s';
 
-            section4Txt.style.animationName="section4Move2";
-            section4Txt.style.animationDuration = "1s";
-            section4Txt.style.animationFillMode = "forwards";
-            section4Txt.style.animationDelay = '3s';
+            section19Txt.style.animationName="section19Move2";
+            section19Txt.style.animationDuration = "1s";
+            section19Txt.style.animationFillMode = "forwards";
+            section19Txt.style.animationDelay = '3s';
         }
 
     }
@@ -287,10 +242,10 @@ $("#sectionMobile").on('mousewheel', function (e) {
 });
 
 // sectionTone
-var sectionToneImg = document.getElementById("sectionToneImage");
-var sectionToneTxt = document.getElementById("sectionToneText");
+var section20Img = document.getElementById("section20Image");
+var section20Txt = document.getElementById("section20Text");
 var ani5 = false;
-$("#section4").on('mousewheel', function (e) {
+$("#section19").on('mousewheel', function (e) {
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -299,15 +254,15 @@ $("#section4").on('mousewheel', function (e) {
         if (ani5 == false) {
             ani5 = true;
 
-            sectionToneImg.style.animationName="sectionToneMove";
-            sectionToneImg.style.animationDuration = "1s";
-            sectionToneImg.style.animationFillMode = "forwards";
-            sectionToneImg.style.animationDelay = '1s';
+            section20Img.style.animationName="section20Move";
+            section20Img.style.animationDuration = "1s";
+            section20Img.style.animationFillMode = "forwards";
+            section20Img.style.animationDelay = '1s';
 
-            sectionToneTxt.style.animationName="sectionToneMove2";
-            sectionToneTxt.style.animationDuration = "1s";
-            sectionToneTxt.style.animationFillMode = "forwards";
-            sectionToneTxt.style.animationDelay = '3s';
+            section20Txt.style.animationName="section20Move2";
+            section20Txt.style.animationDuration = "1s";
+            section20Txt.style.animationFillMode = "forwards";
+            section20Txt.style.animationDelay = '3s';
         }
 
     }

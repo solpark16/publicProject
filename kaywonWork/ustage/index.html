@@ -7,6 +7,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>USTAGE</title>
+    <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -16,30 +17,22 @@
 
     
     <div class="wrap transform-wrap">
-        <header>
-            <!-- <nav>
-                <ul class="floating-menu">
-                    <li><a href="#">nav01</a></li>
-                    <li><a href="#">nav02</a></li>
-                    <li><a href="#">nav03</a></li>
-                </ul>
-            </nav> -->
-        </header>
         <main>
             <div class="prev">
-                <section class="section1 scroll scrollTo box naS" id="section1">
+                <section class="section1 scroll scrollTo  " id="section1">
                     <p class="sectionTitle">USTAGE</p>
-                    <!-- <img src="images/cumain.PNG"> -->
                     <div class="scrollBar">
                         (휠스크롤을 이용하여 감상하실 수 있습니다.)
                     </div>
                     <ul id="list">
                         <li>
                             <a href="#">
-                                <img src="images/mainText.png" id="mainText1">
+                                <img src="images/mainText.png" class="mainText" id="mainText1">
                             </a>
+                        </li>
+                        <li>
                             <a href="#">
-                                <img src="images/mainText2.png" id="mainText2">
+                                <img src="images/mainText2.png" class="mainText" id="mainText2">
                             </a>
                         </li>
                     </ul>
@@ -47,39 +40,36 @@
 
                 
 
-                <section class="imageCenter scroll scrollTo box naS" id="section2">
+                <section class="scrollTo" id="section2">
                     <p class="sectionTitle">Project Goal</p>
                     <div id="section2Image"><img src="images/projectGoal1.png"></div>
                     <p id="section2Text">포스트 코로나 시대, 침체된 공연예술시장을 활성화 시키고<br>
                     관객들의 갈증을 해소시키는 언택트 공연 플랫폼</p>
-                    
                 </section>
 
-                <section class="imageCenter scroll scrollTo box naS" id="section3">
+                <section class="scrollTo  " id="section3">
                     <p class="sectionTitle">Project Goal</p>
-                    <div id="section3Image"><img src="images/projectGoal2.jpg"></div>
-                    
+                    <img src="images/projectGoal2.jpg" id="section3Image">
                 </section>
 
-                <section class="imageCenter scroll scrollTo box naS" id="sectionSwot">
+                <section class="scrollTo  " id="section4">
                     <p class="sectionTitle">SWOT</p>
-                    <div id="sectionSwotImage"><img src="images/swot.png"></div>
+                    <div id="section4Image"><img src="images/swot.png"></div>
                 </section>
 
-                <section class="imageCenter scroll scrollTo box naS" id="sectionApproach">
-                    <div id="sectionApText"><p>포스트 코로나시대 침체기에 빠진 공연예술시장의 활성화를 위한 언택트 공연플랫폼 UX 제안</p></div>
-                    <img src="images/projectApproach.png" id="approachContent">
-                    <img src="images/approachBackground.jpg" class="sectionApBack">
+                <section class="scrollTo  " id="section5">
+                    <div id="section5Text"><p>포스트 코로나시대 침체기에 빠진 공연예술시장의 활성화를 위한 언택트 공연플랫폼 UX 제안</p></div>
+                    <img src="images/projectApproach.png" id="section5Content">
+                    <img src="images/approachBackground.jpg" class="section5Back">
                 </section>
 
-                <section class="imageCenter scroll scrollTo box naS" id="sectionMockUp">
+                <!-- section6 - mock up -->
+                <section class="scrollTo  " id="section6">
                     <p class="sectionTitle">Mock Up</p>
-                    <img src="images/mockUp.png" class="up-on-scroll mockUp">
+                    <img src="images/mockUp.png" class="mockUp">
                 </section>
 
-                <section class="imageCenter  scroll scrollTo detailPage box" id="testFirst">
-                    <p class="sectionTitleBlack"></p>
-                    
+                <section class="scrollTo detailPage " id="section7">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_main2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
@@ -87,13 +77,13 @@
                       <img src="./gif/메인페이지.gif" class="detailGif">
                 </section>
 
-                <section class="imageCenter scroll scrollTo box naS" id="sectionTriple">
+                <section class="scrollTo  " id="section8">
                     <p class="sectionTitle">Mock Up</p>
                     <img src="images/triple.png" class="mockUp">
                 </section>
 
                 <!-- 첫번째 디테일 페이지 -->
-                <section class="imageCenter  scroll scrollTo box naS">
+                <section class="scrollTo  " id="section9">
                     <div class="datailDiv">
                         <div class="scrollBar">
                             (스크롤바를 이용하여 감상하실 수 있습니다.)
@@ -102,8 +92,7 @@
                     </div>
                 </section>
 
-                <section class="imageCenter  scroll scrollTo detailPage box naS" id="test">
-                    <p class="sectionTitleBlack"></p>
+                <section class="scrollTo detailPage  " id="section10 test">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_live2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
@@ -112,7 +101,7 @@
                 </section>
 
                 <!-- 두번째 디테일 페이지 -->
-                <section class="imageCenter  scroll scrollTo box naS">
+                <section class="scrollTo  " id="section11">
                     <div class="datailDiv">
                         <div class="scrollBar">
                             (스크롤바를 이용하여 감상하실 수 있습니다.)
@@ -121,7 +110,7 @@
                     </div>
                 </section>
                 
-                <section class="imageCenter  scroll scrollTo detailPage box naS" id="test1">
+                <section class="scrollTo detailPage  " id="section12 test1">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_schedule2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
@@ -130,7 +119,7 @@
                 </section>
 
                 <!-- 세번째 디테일 페이지 -->
-                <section class="imageCenter  scroll scrollTo box naS">
+                <section class="scrollTo  " id="section13">
                     <div class="datailDiv">
                         <div class="scrollBar">
                             (스크롤바를 이용하여 감상하실 수 있습니다.)
@@ -139,14 +128,15 @@
                     </div>
                 </section>
                 
-                <section class="imageCenter  scroll scrollTo detailPage box naS" id="test2">
+                <section class="scrollTo detailPage  " id="section14 test2">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_funding_main2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
                       </video>
                       <img src="./gif/언택트공연펀딩.gif" class="detailGif">
                 </section>
-                <section class="imageCenter  scroll scrollTo detailPage box naS" id="test3">
+
+                <section class="scrollTo detailPage  " id="section15 test3">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_funding_detail2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
@@ -155,7 +145,7 @@
                 </section>
 
                 <!-- 네번째 디테일 페이지 -->
-                <section class="imageCenter  scroll scrollTo box naS">
+                <section class="scrollTo  " id="section16">
                     <div class="datailDiv">
                         <div class="scrollBar">
                             (스크롤바를 이용하여 감상하실 수 있습니다.)
@@ -164,7 +154,7 @@
                     </div>
                 </section>
                 
-                <section class="imageCenter  scroll scrollTo detailPage box naS" id="test4">
+                <section class="scrollTo detailPage  " id="section17 test4">
                     <video muted autoplay loop>
                         <source src="mp4/ustage_hall2.mp4" type="video/mp4">
                         <strong>Your browser does not support the video tag.</strong>
@@ -173,8 +163,8 @@
                 </section>
 
                 <!-- 모바일 소개 페이지 -->
-                <section class="scroll scrollTo box naS" id="sectionMobile">
-                    <p class="sectionTitleBlack">Mobile Page</p>
+                <section class="scrollTo  " id="section18">
+                    <p class="sectionTitle black">Mobile Page</p>
                     <div id="iphone"><img src="images/iphone.png" alt=""></div>
                     <div class="mobileSlick">
                         <article class="pic">
@@ -215,32 +205,31 @@
                 </section>
                 
                 <!-- 브랜드 아이덴티티 -->
-                <section class="imageCenter scroll scrollTo box naS" id="section4" >
+                <section class="scrollTo  " id="section19" >
                     <p class="sectionTitle">Brand Identity</p>
-                    <img src="images/ustageLogo.PNG" id="section4Image">
-                    <p id="section4Text">우리의 스테이지 US+STAGE의 뜻을 담은 USTAGE 어스테이지라고 읽는다.<br>
+                    <img src="images/ustageLogo.PNG" id="section19Image">
+                    <p id="section19Text">우리의 스테이지 US+STAGE의 뜻을 담은 USTAGE 어스테이지라고 읽는다.<br>
                         직접 만나볼 수 는 없지만 어스테이지를 통해 언택트로 만날 수 있다는 의미가 담겨있다.</p>
                 </section>
 
                 <!-- 톤앤매너 -->
-                <section class="imageCenter scroll scrollTo box naS" id="sectionTone">
+                <section class="scrollTo  " id="section20">
                     <p class="sectionTitle">Tone</p>
-                    <div id="sectionToneImage"><img src="images/tone.png"></div>
-                    <p id="sectionToneText">코로나 19로 인해 실제 공연장을 잘 경험하지 못하고 있기때문에<br>
+                    <div id="section20Image"><img src="images/tone.png"></div>
+                    <p id="section20Text">코로나 19로 인해 실제 공연장을 잘 경험하지 못하고 있기때문에<br>
                         실제 콘서트장의 조명들을 연상케하는 중성적인 컬러인 민트색과 보라색을 선정하였다.<br>
                         공연장의 밝게 빛나는 스포트라이트를 형상화 시키기 위한 짙은 파란 검정빛이 배경으로 받쳐주고 있다.</p>
                     
                 </section>
 
-                <section class="section1 scroll scrollTo box naS">
-                    <!-- <img src="images/cumain.PNG"> -->
+                <section class="scrollTo  " id="section21">
                     <p class="sectionTitle">Typography</p>
                     <div id="typography">
-                        <p id="p1" class="up-on-scroll">어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다.  </p>
-                        <p id="p2"><strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses </p>
-                        <p id="p1"><strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는  </p>
-                        <p id="p2">USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> </p>
-                        <p id="p1">사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를  </p>
+                        <p id="p1">어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다.</p>
+                        <p id="p2"><strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses</p>
+                        <p id="p1"><strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는</p>
+                        <p id="p2">USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong> USTAGE uses <strong>Noto Sans.</strong></p>
+                        <p id="p1">사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를 사용합니다. 어스테이지는 <strong>노토 산스</strong>를</p>
                     </div>
                     
                 </section>
@@ -248,17 +237,6 @@
 
             </div>
         </main>
-        <footer>
-
-        </footer>
-        <div class="index-wrap clear">
-            <ul class="index-con">
-                <!-- <li class="item active"></li>
-                <li class="item"></li>
-                <li class="item"></li> -->
-            </ul>
-            <p class="page-num"></p>
-        </div>
     </div>
 
     </div>
@@ -267,25 +245,13 @@
         $(window).scroll(
                 function () {
                     var scrollValue = $(document).scrollTop();
-                    console.log(scrollValue);
-                    // if ($(window).scrollTop() >= 937) { // 섹션3
-                        // 플로팅 애니메이션 추가
-                        // console.log("제발");
-                        // $(".section2Image").addClass("up-on-scroll");
-                        // $(".iphoneL").addClass("animationDelay1");
-                        // $(".iphoneR").addClass("animationDelay2");
-                    // }
                 });
     </script>
-    <!-- 마우스 커서 -->
-    <!-- <div id="cursor-dot">&nbsp;</div> -->
     <div id="cursor-bg">&nbsp;</div>
     <div id="progress"><span>&nbsp;</span></div>
     <script type="text/javascript" src="./vendor/gsap/gsap.min.js"></script>
 
-    <!-- <script src="./js/script.js" type="text/javascript"></script> -->
     <script src="./js/script1.js" type="text/javascript"></script>
-    <script src="./js/script3.js" type="text/javascript"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script>
@@ -297,13 +263,6 @@
             autoplaySpeed: 2000,
         });
     </script>
-    <script>
-        $('.pageDetail').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1
-        });
-    </script>
-    
     
 </body>
 </html>
