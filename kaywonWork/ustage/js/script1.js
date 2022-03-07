@@ -71,7 +71,6 @@ function onMouseMoveWindow(e) {
 function onClickList(e) {
     e.preventDefault();
     var index = btnListEl.indexOf(e.currentTarget);
-    console.log(index);
 }
 function onMouseEnterList() {
     if(!cursorBGEl.classList.contains("active")){
@@ -116,7 +115,6 @@ $("#section1").on('mousewheel', function (e) {
         //스크롤  내릴때 
         if (ani0 == false) {
             ani0 = true;
-            console.log("duishgie");
 
             section2Img.style.animationName="section2Move";
             section2Img.style.animationDuration = "1s";
@@ -160,7 +158,6 @@ $("#section2").on('mousewheel', function (e) {
 var sectionSwotImg = document.getElementById("section4Image");
 var ani4 = false;
 $("#section3").on('mousewheel', function (e) {
-    console.log("section3 wheel")
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -185,7 +182,6 @@ var sectionApTxt = document.getElementById("section5Text");
 var sectionApImg = document.getElementById("section5Content");
 var ani3 = false;
 $("#section4").on('mousewheel', function (e) {
-    console.log("section4 wheel")
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
 
@@ -224,7 +220,6 @@ $("#section18").on('mousewheel', function (e) {
         //스크롤  내릴때 
         if (ani2 == false) {
             ani2 = true;
-            console.log("gotdamn");
 
             section19Img.style.animationName="section19Move";
             section19Img.style.animationDuration = "1s";
