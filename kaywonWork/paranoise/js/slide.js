@@ -1,4 +1,3 @@
-console.log("Script Load");
 
 const IMAGE_WIDTH = 500;
 const IMAGE_WIDTH2 = 500;
@@ -7,7 +6,6 @@ const IMAGE_WIDTH4 = 500;
 
 (function($) {
     $(document).ready(function() { 
-        console.log('jQuery Ready');
 
         let isAni = false;
         let cuId = 0;
@@ -121,12 +119,10 @@ const IMAGE_WIDTH4 = 500;
     let cuId2 = 0;
     let exId2 = 0;
     let max2 = void 0;
-    const _this2 = this;
 
     const $banner2 = $('.banner2');
     const $wrap2 = $banner2.children('.banner-wrap');
     const $container2 = $wrap2.children('.banner-container');
-    console.log($container2);
     const $items2 = $container2.children('.banner-item');
     const $dotNav2 = $banner2.children('.dot-nav');
     const $dot2 = $dotNav2.find('span');
@@ -158,13 +154,11 @@ const IMAGE_WIDTH4 = 500;
             return;
         }
         const $el2 = $(this);
-        // console.log($el2)
         if ($el2.is($btnPaddlePrev2)) {
             cuId2 -= 1;
             if (cuId2 < 0) {
                 cuId2 = 0;
             }
-            console.log("hey~")
         } else if ($el2.is($btnPaddleNext2)) {
             cuId2 += 1;
             if (cuId2 > max2 - 1) {
@@ -238,7 +232,6 @@ const IMAGE_WIDTH4 = 500;
     const $banner3 = $('.banner3');
     const $wrap3 = $banner3.children('.banner-wrap');
     const $container3 = $wrap3.children('.banner-container');
-    console.log($container3);
     const $items3 = $container3.children('.banner-item');
     const $dotNav3 = $banner3.children('.dot-nav');
     const $dot3 = $dotNav3.find('span');
@@ -270,13 +263,11 @@ const IMAGE_WIDTH4 = 500;
             return;
         }
         const $el3 = $(this);
-        // console.log($el3)
         if ($el3.is($btnPaddlePrev3)) {
             cuId3 -= 1;
             if (cuId3 < 0) {
                 cuId3 = 0;
             }
-            console.log("hey~")
         } else if ($el3.is($btnPaddleNext3)) {
             cuId3 += 1;
             if (cuId3 > max3 - 1) {
@@ -349,7 +340,6 @@ const IMAGE_WIDTH4 = 500;
     const $banner4 = $('.banner4');
     const $wrap4 = $banner4.children('.banner-wrap');
     const $container4 = $wrap4.children('.banner-container');
-    console.log($container4);
     const $items4 = $container4.children('.banner-item');
     const $dotNav4 = $banner4.children('.dot-nav');
     const $dot4 = $dotNav4.find('span');
@@ -381,13 +371,11 @@ const IMAGE_WIDTH4 = 500;
             return;
         }
         const $el4 = $(this);
-        // console.log($el4)
         if ($el4.is($btnPaddlePrev4)) {
             cuId4 -= 1;
             if (cuId4 < 0) {
                 cuId4 = 0;
             }
-            console.log("hey~")
         } else if ($el4.is($btnPaddleNext4)) {
             cuId4 += 1;
             if (cuId4 > max4 - 1) {
@@ -451,6 +439,3 @@ const IMAGE_WIDTH4 = 500;
 });
 
 })(jQuery);
-
-// para2
-

@@ -1,10 +1,3 @@
-console.log("Script Load");
-(function($) {
-    $(document).ready(function() {
-        console.log('jQuery Ready');
-    });
-})(jQuery);
-
 var timeout;
  
 // 휠이벤트가 발생하면
@@ -193,7 +186,7 @@ $(".sectionNoise").on('mousewheel', function (e) {
 // event script
 const $damage5 = $('.damage5');
 var ani4 = false;
-$(".sectionShoes").on('mousewheel', function (e) {
+$(".sectionShoes1").on('mousewheel', function (e) {
     var wheel = e.originalEvent.wheelDelta;
     if (wheel > 0) {
         $('.shoesLeft').removeClass('fixed')
@@ -201,20 +194,11 @@ $(".sectionShoes").on('mousewheel', function (e) {
     } else {
         //스크롤  내릴때 
         if (ani4 == false) {
-            console.log("픽스?")
             ani4 = true;
-            // $damage5.css({
-            //     'animation-name': 'opacityAni',
-            //     'animation-duration': '1s',
-            //     'animation-fill-mode': 'forwards',
-            //     'animation-delay': '1s'
-            // });
-            
         }
         $('.shoesLeft').addClass('fixed')
         $('.damage4').addClass('fixed')
         $('.korEx').addClass('on')
-        console.log("픽스2?")
     }
 });
 $(".sectionShoes2").on('mousewheel', function (e) {
@@ -239,7 +223,6 @@ $(".sectionShoes3").on('mousewheel', function (e) {
         //스크롤  내릴때 
         $('.fnf').removeClass('on')
         $('.shoesLeft').addClass('up')
-        console.log("픽스2?")
     }
 });
 $(".sectionShoes4").on('mousewheel', function (e) {
@@ -248,25 +231,20 @@ $(".sectionShoes4").on('mousewheel', function (e) {
         $('.fnf').addClass('on')
         $('.shoesLeft').removeClass('up')
         $('.shoesLeft2').removeClass('fixed')
-        // $('.shoesLeft').removeClass('fixed')
     } else {
         //스크롤  내릴때 
         if (ani4 == false) {
-            console.log("픽스?")
             ani4 = true;
-            // $damage5.css({
-            //     'animation-name': 'opacityAni',
-            //     'animation-duration': '1s',
-            //     'animation-fill-mode': 'forwards',
-            //     'animation-delay': '1s'
-            // });
-            
         }
-        // $('.shoesLeft').removeClass('fixed')
         $('.shoesLeft2').addClass('fixed')
         $('.shoesLeft2').addClass('up')
         $('.damage4').addClass('up')
-        // console.log("픽스2?")
+        $damage5.css({
+            'animation-name': 'opacityAni',
+            'animation-duration': '1s',
+            'animation-fill-mode': 'forwards',
+            'animation-delay': '1s'
+        });
     }
 });
 $(".sectionEvent").on('mousewheel', function (e) {
@@ -277,10 +255,7 @@ $(".sectionEvent").on('mousewheel', function (e) {
     } else {
         //스크롤  내릴때 
         if (ani4 == false) {
-
-            
         }
-
     }
 });
 
@@ -298,14 +273,9 @@ audio["noise5"] = new Audio();
 audio["noise5"].src = "./audio/sound5.mp3"
 
 $('.noise1').click(function(){
-    console.log("클릭되니");
     $('.noise1 a').css({
         'color':'red'
     })
-    // var audio = {};
-    // audio["noise1"] = new Audio();
-    // audio["noise1"].src = "./audio/sound1.mp3"
-    console.log("재생")
     audio["noise1"].play();
     audio["noise2"].pause();
     audio["noise3"].pause();
@@ -314,7 +284,6 @@ $('.noise1').click(function(){
 
   });
 $('.noise2').click(function(){
-    console.log("클릭되니");
     $('.noise2 a').css({
         'color':'yellow'
     })
@@ -325,7 +294,6 @@ $('.noise2').click(function(){
     audio["noise5"].pause();
   });
 $('.noise3').click(function(){
-    console.log("클릭되니");
     $('.noise3 a').css({
         'color':'red'
     })
@@ -336,7 +304,6 @@ $('.noise3').click(function(){
     audio["noise5"].pause();
   });
 $('.noise4').click(function(){
-    console.log("클릭되니");
     $('.noise4 a').css({
         'color':'yellow'
     })
@@ -347,7 +314,6 @@ $('.noise4').click(function(){
     audio["noise5"].pause();
   });
 $('.noise5').click(function(){
-    console.log("클릭되니");
     $('.noise5 a').css({
         'color':'red'
     })
@@ -359,25 +325,21 @@ $('.noise5').click(function(){
   });
 
 $('.eventLi1').mouseover(function(){
-    console.log("마우스오버");
     $('.event1').css({
         'display':'block'
     })
 });
 $('.eventLi1').mouseleave(function(){
-    console.log("마우스리브");
     $('.event1').css({
         'display':'none'
     })
 });
 $('.eventLi2').mouseover(function(){
-    console.log("마우스오버");
     $('.event2').css({
         'display':'block'
     })
 });
 $('.eventLi2').mouseleave(function(){
-    console.log("마우스리브");
     $('.event2').css({
         'display':'none'
     })

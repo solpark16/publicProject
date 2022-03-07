@@ -1,16 +1,12 @@
-console.log("drag event");
-
+// 실패한 js.
 // const $para1 = $('.para1')
-// console.log($para1);
 
 const $para1Text = $('.para1Text');
 const $droppable = $('.droppable');
-console.log($droppable);
 
 
 let currentDroppable = null;
     para1.onmousedown = function(event) {
-    console.log("드래그 먹니?")
 
       let shiftX = event.clientX - para1.getBoundingClientRect().left;
       let shiftY = event.clientY - para1.getBoundingClientRect().top;
@@ -58,27 +54,19 @@ let currentDroppable = null;
     };
 
     function enterDroppable(elem) {
-        console.log("이거 맞아?")
-    //   elem.style.display = 'none';
-        // $para1Text.css({
-        //     'display':'inline-block'
-        // })
     }
 
     function leaveDroppable(elem) {
-        console.log("이거 맞아?")
       elem.style.background = '';
     }
 
     para1.ondragstart = function() {
-        console.log("이거 맞는가?")
       return false;
     };
 
     // 2
 
     para2.onmousedown = function(event) {
-    console.log("드래그 먹니?")
 
       let shiftX = event.clientX - para2.getBoundingClientRect().left;
       let shiftY = event.clientY - para2.getBoundingClientRect().top;
@@ -126,26 +114,18 @@ let currentDroppable = null;
     };
 
     function enterDroppable(elem) {
-        console.log("이거 맞아?")
-    //   elem.style.display = 'none';
-        // $para2Text.css({
-        //     'display':'inline-block'
-        // })
     }
 
     function leaveDroppable(elem) {
-        console.log("이거 맞아?")
       elem.style.background = '';
     }
 
     para2.ondragstart = function() {
-        console.log("이거 맞는가?")
       return false;
     };
     // 3
 
     para3.onmousedown = function(event) {
-    console.log("드래그 먹니?")
 
       let shiftX = event.clientX - para3.getBoundingClientRect().left;
       let shiftY = event.clientY - para3.getBoundingClientRect().top;
@@ -193,19 +173,12 @@ let currentDroppable = null;
     };
 
     function enterDroppable(elem) {
-        console.log("이거 맞아?")
-    //   elem.style.display = 'none';
-        // $para3Text.css({
-        //     'display':'inline-block'
-        // })
     }
 
     function leaveDroppable(elem) {
-        console.log("이거 맞아?")
       elem.style.background = '';
     }
 
     para3.ondragstart = function() {
-        console.log("이거 맞는가?")
       return false;
     };
