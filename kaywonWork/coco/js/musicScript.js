@@ -93,22 +93,41 @@ $(function(){
 	});
 	
 
+	// for(let i=0;i<$(".slide-image").length;i++){
+    //     $(".slide-image").eq(i).on("click", function(){
+	// 		$(".slideImg").css("width","300px");
+	// 		$(".slideImg").css("filter","brightness(50%)");
+	// 		// 나머지 글 초기화
+	// 		$(".slideTitle").css("font-size","20px");
+	// 		$(".slideP").css("font-size","8px");
+	// 		$(".imgP").css("color","rgb(129, 129, 129)");
+	// 		$(".imgP").css("bottom","80px");
 
+	// 		// 클릭된 이미지는 크기와 밝기를 조정해주고, 글 역시도 크기와 컬러, 위치를 조정해줍니다.
+	// 		// 클릭된 이미지 활성화
+	// 		$(".slideImg").eq(i).css("width","500px");
+	// 		$(".slideImg").eq(i).css("filter","brightness(100%)");
+	// 		// 클릭된 글 활성화
+	// 		$(".slideTitle").eq(i).css("font-size","30px");
+	// 		$(".slideTitle").eq(i).css("height","40px");
+	// 		$(".slideP").eq(i).css("font-size","11px");
+	// 		$(".imgP").eq(i).css("color","white");
+	// 		$(".imgP").eq(i).css("bottom","0");
+    //     });
+    // }
 
 
 // 이미지 클릭 시 해당 이미지 활성화 및 다른 이미지 원상복귀 스크립트
 
 	$("#slide1").on("click", function(){ // slide1을 클릭했을 시
 
-		// 나머지 이미지와 글을 초기화시켜줍니다. 해당 값들은 처음에 미리 css로 지정해준 값들입니다.
-		// 나머지 이미지 초기화
-		$("#slideImg2, #slideImg3, #slideImg4, #slideImg5").css("width","300px");
-		$("#slideImg2, #slideImg3, #slideImg4, #slideImg5").css("filter","brightness(50%)");
-		// 나머지 글 초기화
-		$("#slideTitle2, #slideTitle3, #slideTitle4, #slideTitle5").css("font-size","20px");
-		$("#slideP2, #slideP3, #slideP4, #slideP5").css("font-size","8px");
-		$("#imgP2, #imgP3, #imgP4, #imgP5").css("color","rgb(129, 129, 129)");
-		$("#imgP2, #imgP3, #imgP4, #imgP5").css("bottom","80px");
+		$(".slideImg").css("width","300px");
+			$(".slideImg").css("filter","brightness(50%)");
+			// 나머지 글 초기화
+			$(".slideTitle").css("font-size","20px");
+			$(".slideP").css("font-size","8px");
+			$(".imgP").css("color","rgb(129, 129, 129)");
+			$(".imgP").css("bottom","80px");
 
 		// 클릭된 이미지는 크기와 밝기를 조정해주고, 글 역시도 크기와 컬러, 위치를 조정해줍니다.
 		// 클릭된 이미지 활성화
@@ -126,14 +145,13 @@ $(function(){
 
 	$("#slide2").on("click", function(){
 
-		// 나머지 이미지 초기화
-		$("#slideImg1, #slideImg3, #slideImg4, #slideImg5").css("width","300px");
-		$("#slideImg1, #slideImg3, #slideImg4, #slideImg5").css("filter","brightness(50%)");
-		// 나머지 글 초기화
-		$("#slideTitle1, #slideTitle3, #slideTitle4, #slideTitle5").css("font-size","20px");
-		$("#slideP1, #slideP3, #slideP4, #slideP5").css("font-size","8px");
-		$("#imgP1, #imgP3, #imgP4, #imgP5").css("color","rgb(129, 129, 129)");
-		$("#imgP1, #imgP3, #imgP4, #imgP5").css("bottom","80px");
+		$(".slideImg").css("width","300px");
+			$(".slideImg").css("filter","brightness(50%)");
+			// 나머지 글 초기화
+			$(".slideTitle").css("font-size","20px");
+			$(".slideP").css("font-size","8px");
+			$(".imgP").css("color","rgb(129, 129, 129)");
+			$(".imgP").css("bottom","80px");
 
 		// 클릭된 이미지 활성화
         $("#slideImg2").css("width","500px");
@@ -148,14 +166,13 @@ $(function(){
 
 	$("#slide3").on("click", function(){
 
-		// 나머지 이미지 초기화
-		$("#slideImg1, #slideImg2, #slideImg4, #slideImg5").css("width","300px");
-		$("#slideImg1, #slideImg2, #slideImg4, #slideImg5").css("filter","brightness(50%)");
-		// 나머지 글 초기화
-		$("#slideTitle1, #slideTitle2, #slideTitle4, #slideTitle5").css("font-size","20px");
-		$("#slideP1, #slideP2, #slideP4, #slideP5").css("font-size","8px");
-		$("#imgP1, #imgP2, #imgP4, #imgP5").css("color","rgb(129, 129, 129)");
-		$("#imgP1, #imgP2, #imgP4, #imgP5").css("bottom","80px");
+		$(".slideImg").css("width","300px");
+			$(".slideImg").css("filter","brightness(50%)");
+			// 나머지 글 초기화
+			$(".slideTitle").css("font-size","20px");
+			$(".slideP").css("font-size","8px");
+			$(".imgP").css("color","rgb(129, 129, 129)");
+			$(".imgP").css("bottom","80px");
 
 		// 클릭된 이미지 활성화
         $("#slideImg3").css("width","500px");
@@ -170,14 +187,13 @@ $(function(){
 
 	$("#slide4").on("click", function(){
 
-		// 나머지 이미지 초기화
-		$("#slideImg1, #slideImg2, #slideImg3, #slideImg5").css("width","300px");
-		$("#slideImg1, #slideImg2, #slideImg3, #slideImg5").css("filter","brightness(50%)");
-		// 나머지 글 초기화
-		$("#slideTitle1, #slideTitle2, #slideTitle3, #slideTitle5").css("font-size","20px");
-		$("#slideP1, #slideP2, #slideP3, #slideP5").css("font-size","8px");
-		$("#imgP1, #imgP2, #imgP3, #imgP5").css("color","rgb(129, 129, 129)");
-		$("#imgP1, #imgP2, #imgP3, #imgP5").css("bottom","80px");
+		$(".slideImg").css("width","300px");
+			$(".slideImg").css("filter","brightness(50%)");
+			// 나머지 글 초기화
+			$(".slideTitle").css("font-size","20px");
+			$(".slideP").css("font-size","8px");
+			$(".imgP").css("color","rgb(129, 129, 129)");
+			$(".imgP").css("bottom","80px");
 
 		// 클릭된 이미지 활성화
         $("#slideImg4").css("width","500px");
@@ -192,14 +208,13 @@ $(function(){
 
 	$("#slide5").on("click", function(){
 
-		// 나머지 이미지 초기화
-		$("#slideImg1, #slideImg2, #slideImg3, #slideImg4").css("width","300px");
-		$("#slideImg1, #slideImg2, #slideImg3, #slideImg4").css("filter","brightness(50%)");
-		// 나머지 글 초기화
-		$("#slideTitle1, #slideTitle2, #slideTitle3, #slideTitle4").css("font-size","20px");
-		$("#slideP1, #slideP2, #slideP3, #slideP4").css("font-size","8px");
-		$("#imgP1, #imgP2, #imgP3, #imgP4").css("color","rgb(129, 129, 129)");
-		$("#imgP1, #imgP2, #imgP3, #imgP4").css("bottom","80px");
+		$(".slideImg").css("width","300px");
+			$(".slideImg").css("filter","brightness(50%)");
+			// 나머지 글 초기화
+			$(".slideTitle").css("font-size","20px");
+			$(".slideP").css("font-size","8px");
+			$(".imgP").css("color","rgb(129, 129, 129)");
+			$(".imgP").css("bottom","80px");
 
 		// 클릭된 이미지 활성화
         $("#slideImg5").css("width","500px");

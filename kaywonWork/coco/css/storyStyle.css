@@ -1,151 +1,18 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
-
-/* 초기화 코드 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-.blind{display:none!important;visibility:hidden!important;position:absolute;margin:0;padding:0;clip:rect(0 0 0 0);pointer-events:none}
-a { 
-    /* color: #fff;  */
-    text-decoration: none;
-}
-body {
-    overflow: hidden;
-}
-header{
-    z-index: 1;
-    background-color: #111230;
-    box-sizing: border-box;
-    width: 100%;
-    height: 74px;
-    /* border: solid 1px red; */
-    position: fixed;
-    /* position: relative; */
-}
-header a {
-    width: 211px;
-    /* padding: 0; */
-}
-header #title{
-    margin-top: 11px;
-    margin-left: 50px;
-    display: inline-block;
-
-    z-index: 1;
-    /* background-image: url("/images/cocoLogo.png"); */
-    /* border: solid 1px red; */
-    /* width: 100px;
-    height: 50px; */
-}
-header #title img{
-    /* width: 100px; */
-}
-#gnb {
-    margin-right: 93px;
-    margin-top: 10px;
-    color: white !important;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#gnb a {
-    color: #fff; 
-}
-header #gnb>li>a:hover {
-    color: #f99e1a;
-    border-bottom: 3px solid #f99e1a;
-}
-.clicked a{
-    color: #f99e1a !important;
-}
-.clicked {
-    border-bottom: 3px solid #f99e1a;
-}
-#gnb li {
-    font-weight: bold;
-    margin-left: 56px;
-    /* border: solid 1px yellow; */
-    font-size: 30px;
-    display: inline-block;
-}
-
-
-
-
-/* 줄거리 페이지 */
-#storyTitle {
-    opacity: 51%;
-    color: white;
-    z-index: 2;
-    position: absolute;
-    /* top: 126px; */
-    left: 103px;
-    padding-top: 126px;
-}
-#storyTitle h1{
-    color: white;
-    font-weight: bold;
-    font-size: 153.11px;
-}
-
+body {overflow: hidden;}
 
 .gallery{position:relative;width:100vw;height:100vh}
-.view{
-    overflow:hidden;
-    position:relative;width:100%;height:100%}
-.view-container{position:absolute;top:0;left:0;width:100%;height:100%}
-.view-container::after{content:'';display:block;position:relative;clear:both}
-.view-item{
-    position:relative;
-    float:left;
-    width:100%;
-    height:100%;
-}
-.view-item img{
-    display:block;
-    /* display: none; height 100%가 제대로 먹히지 않아 일단 실험삼아 display를 none으로 줬습니다.
-    잘 작동되는걸 보아 이미지가 안깨지려면 다른 방법을 써야할 듯합니다.*/
-    height:100%;
-    object-fit: cover;
-    /* width: 100px; */
-    
-    /* object-fit: cover;을 사용하니 이미지가 깨지진 않지만 약간 확대되어 나옵니다. */
-}
-.storyContent {
-    font-size: 24px;
-    position: absolute;
-    top: 484px;
-    left: 104px;
-    z-index: 999;
-    color: white;
-}
+.gallery .view{overflow:hidden;position:relative;width:100%;height:100%}
+.gallery .view .view-container{position:absolute;top:0;left:0;width:100%;height:100%}
+.gallery .view .view-container::after{content:'';display:block;position:relative;clear:both}
+.gallery .view .view-container .view-item{position:relative;float:left;width:100%;height:100%;}
+.gallery .view .view-container .view-item img{display:block;height:100%;object-fit: cover;}
+.gallery .view .view-container .view-item .storyContent {font-size: calc(100vw*24/1920);position: absolute;top: calc(100vw*484/1920);left: calc(100vw*104/1920);z-index: 999;color: white; line-height: 150%; width: 1500px; word-break: keep-all;}
 
-.paddle-nav button{position:absolute;z-index:50;top:50%;width:52px;height:52px;margin-top:-26px;border:4px solid #000;border-radius:52px;background-color:rgba(214,214,214,0.25);cursor:pointer;-webkit-transition:background-color 180ms ease-in-out}
-.paddle-nav button:hover{background-color:rgba(214,214,214,0.75)}
-.paddle-nav button::after{display:inline-block;position:relative;text-decoration:none;color:inherit;font-family:'SF Pro Icons';font-size:inherit;font-weight:inherit;font-style:normal;line-height:1;z-index:1}
-.paddle-nav button.disabled{display:none}
-.paddle-nav button.prev{
-
-    left:18px
-}
-.paddle-nav button.next{right:18px}
-.paddle-nav button.prev::after{content:"";display:block;position:absolute;top:50%;left:50%;margin-left:2px;padding:5px;border-right:4px solid #000;border-bottom:4px solid #000;transform:translateX(-50%) translateY(-50%) rotate(135deg)}
-.paddle-nav button.next::after{content:"";display:block;position:absolute;top:50%;left:50%;margin-left:-2px;padding:5px;border-right:4px solid #000;border-bottom:4px solid #000;transform:translateX(-50%) translateY(-50%) rotate(-45deg)}
+.gallery .paddle-nav button{position:absolute;z-index:50;top:50%;width:52px;height:52px;margin-top:-26px;border:4px solid #000;border-radius:52px;background-color:rgba(214,214,214,0.25);cursor:pointer;-webkit-transition:background-color 180ms ease-in-out}
+.gallery .paddle-nav button:hover{background-color:rgba(214,214,214,0.75)}
+.gallery .paddle-nav button::after{display:inline-block;position:relative;text-decoration:none;color:inherit;font-family:'SF Pro Icons';font-size:inherit;font-weight:inherit;font-style:normal;line-height:1;z-index:1}
+.gallery .paddle-nav button.disabled{display:none}
+.gallery .paddle-nav button.prev{left:18px}
+.gallery .paddle-nav button.next{right:18px}
+.gallery .paddle-nav button.prev::after{content:"";display:block;position:absolute;top:50%;left:50%;margin-left:2px;padding:5px;border-right:4px solid #000;border-bottom:4px solid #000;transform:translateX(-50%) translateY(-50%) rotate(135deg)}
+.gallery .paddle-nav button.next::after{content:"";display:block;position:absolute;top:50%;left:50%;margin-left:-2px;padding:5px;border-right:4px solid #000;border-bottom:4px solid #000;transform:translateX(-50%) translateY(-50%) rotate(-45deg)}

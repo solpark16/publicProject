@@ -34,7 +34,7 @@ section .damage img{width: 100vw;height: 100%;object-fit: cover;}
 
 /* noise */
 .sectionNoise .noiseList {top: calc(100vw*296/1920);position: absolute;color: #ffffff;font-size: calc(100vw*50/1920);}
-.sectionNoise .noiseList li {animation-timing-function: linear; font-family:"Noto Sans KR",sans-serif;white-space: nowrap; font-weight:700;padding-bottom: calc(100vw*50/1920) ;animation-duration: 70s;animation-iteration-count: infinite;animation-direction: alternate;}
+.sectionNoise .noiseList li {cursor: pointer; animation-timing-function: linear; font-family:"Noto Sans KR",sans-serif;white-space: nowrap; font-weight:700;padding-bottom: calc(100vw*50/1920) ;animation-duration: 70s;animation-iteration-count: infinite;animation-direction: alternate;}
 .sectionNoise .noiseList li.noise1 {animation-name: slide1;}
 .sectionNoise .noiseList li.noise2 {animation-name: slide2;}
 .sectionNoise .noiseList li.noise3 {animation-name: slide3;}
@@ -50,7 +50,7 @@ section .damage img{width: 100vw;height: 100%;object-fit: cover;}
   }
   @keyframes slide3 {
     from {margin-left: 0%;}
-    to {margin-left: calc(100vw*-3478.91/1920);;}
+    to {margin-left: calc(100vw*-3478.91/1920);}
   }
   @keyframes slide4 {
     from {margin-left: calc(100vw*-2473.5/1920);}
@@ -79,6 +79,29 @@ section .damage img{width: 100vw;height: 100%;object-fit: cover;}
 .sectionShoes.sectionShoes4 .shoesLeft2 p {text-align: center;width: 100vh;position: absolute;font-family:"Noto Sans KR",sans-serif;font-weight:700;color: white;font-size: calc(100vw*90/1920);top: 50%;left: 50%;transform:translateX(-50%) translateY(-50%);}
 .sectionShoes .shoesRight{position: absolute;top: 0;right: 0;z-index: 10;width: 50%;height: 100vh;border-left: solid 1px white;}
 .sectionShoes .shoesRight img {position: absolute;top: 50%;left: 50%;width: 500px;transform:translateX(-50%) translateY(-50%);}
+.sectionShoes .shoesRight .banner{position:relative;width:calc(100vw*500/1920);height:calc(100vw*500/1920);top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.sectionShoes .shoesRight .banner .banner-wrap{overflow:hidden;position:relative;width:100%;height:100%}
+.sectionShoes .shoesRight .banner .banner-container{position:relative;width:calc(100vw*4000/1920);height:100%}
+.sectionShoes .shoesRight .banner .banner-container::after{content:'';display:block;position:relative;clear:both}
+.sectionShoes .shoesRight .banner .banner-container .banner-item{display:-webkit-box;display:-ms-flex;display:flex;position:relative;float:left;width:calc(100vw*500/1920);height:100%;-webkit-box-orient:vertical;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .image-area{position:absolute;width:100%;height:100%}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .image-area img{display:inline-block;width:100%;vertical-align:top}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .text-area{position:relative;width:100%;text-align:center;color:#333;mix-blend-mode:hard-light}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .text-area .title{text-transform:capitalize;font-size:calc(100vw*30/1920);font-weight:700;line-height:calc(100vw*40/1920)}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .text-area .title + .desc{margin-top:calc(100vw*20/1920)}
+.sectionShoes .shoesRight .banner .banner-container .banner-item .text-area .desc{font-size:calc(100vw*16/1920);font-weight:500;line-height:calc(100vw*26/1920)}
+.sectionShoes .shoesRight .banner .dot-nav{position:absolute;z-index:50;bottom:calc(100vw*20/1920);width:100%}
+.sectionShoes .shoesRight .banner .dot-nav ul{display:block;text-align:center}
+.sectionShoes .shoesRight .banner .dot-nav li{display:inline-block;padding-right:calc(100vw*7/1920);padding-left:calc(100vw*7/1920)}
+.sectionShoes .shoesRight .banner .dot-nav li span{display:block;width:calc(100vw*8/1920);height:calc(100vw*8/1920);background-color:#888;border-radius:50%;line-height:calc(100vw*8/1920);cursor:pointer;user-select:none;-webkit-transition:background-color 120ms ease-in-out;}
+.sectionShoes .shoesRight .banner .dot-nav li span:hover{background-color:#666}
+.sectionShoes .shoesRight .banner .dot-nav li span.selected{background-color:red;cursor:default}
+.sectionShoes .shoesRight .banner .paddle-nav button{all: unset; position:absolute;z-index:50;top:50%;margin-top:calc(100vw*-26/1920);font-size:calc(100vw*80/1920);line-height:calc(100vw*52/1920); cursor: pointer;}
+.sectionShoes .shoesRight .banner .paddle-nav button.disabled{display:none}
+.sectionShoes .shoesRight .banner .paddle-nav button.prev{left:calc(100vw*-80/1920);}
+.sectionShoes .shoesRight .banner .paddle-nav button.next{right:calc(100vw*-80/1920);}
+.sectionShoes .shoesRight .banner .paddle-nav button.prev::after{content:'<';margin-left:-0.044em;color: white;}
+.sectionShoes .shoesRight .banner .paddle-nav button.next::after{content:'>';margin-right:-0.044em;color: white;}
 
 /* event */
 .sectionEvent {position: relative;}
@@ -93,30 +116,5 @@ section .damage img{width: 100vw;height: 100%;object-fit: cover;}
 .sectionContact{width: 100%;height: calc(100vw*300/1920);}
 .sectionContact .contactDiv{width: calc(100vw*1280/1920);display: flex;margin-top: calc(100vw*50/1920);margin-left: auto;margin-right: auto;}
 .sectionContact .contactDiv .contactItem{width: 100%;height: 200px;}
-.sectionContact .contactDiv .contactItem img {position: relative;width: 100px;top: 50%;left: 50%;transform:translateX(-50%) translateY(-50%);filter: drop-shadow(5px 5px 5px #000)}
+.sectionContact .contactDiv .contactItem img {position: relative;width: 100px;top: 50%;left: 50%;transform:translateX(-50%) translateY(-50%);filter: drop-shadow(calc(100vw*5/1920)calc(100vw*5/1920)calc(100vw*5/1920) #000)}
 .sectionContact .contactImg {width: 100%;position: absolute;top: 0;left: 0;}
-
-/* slider */
-.banner{position:relative;width:500px;height:500px;top: 50%;left: 50%;transform: translate(-50%,-50%);}
-.banner .banner-wrap{overflow:hidden;position:relative;width:100%;height:100%}
-.banner .banner-container{position:relative;width:4000px;height:100%}
-.banner .banner-container::after{content:'';display:block;position:relative;clear:both}
-.banner .banner-container .banner-item{display:-webkit-box;display:-ms-flex;display:flex;position:relative;float:left;width:500px;height:100%;-webkit-box-orient:vertical;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.banner .banner-container .banner-item .image-area{position:absolute;width:100%;height:100%}
-.banner .banner-container .banner-item .image-area img{display:inline-block;width:100%;vertical-align:top}
-.banner .banner-container .banner-item .text-area{position:relative;width:100%;text-align:center;color:#333;mix-blend-mode:hard-light}
-.banner .banner-container .banner-item .text-area .title{text-transform:capitalize;font-size:30px;font-weight:700;line-height:40px}
-.banner .banner-container .banner-item .text-area .title + .desc{margin-top:20px}
-.banner .banner-container .banner-item .text-area .desc{font-size:16px;font-weight:500;line-height:26px}
-.banner .dot-nav{position:absolute;z-index:50;bottom:20px;width:100%}
-.banner .dot-nav ul{display:block;text-align:center}
-.banner .dot-nav li{display:inline-block;padding-right:7px;padding-left:7px}
-.banner .dot-nav li span{display:block;width:8px;height:8px;background-color:#888;border-radius:50%;line-height:8px;cursor:pointer;user-select:none;-webkit-transition:background-color 120ms ease-in-out}
-.banner .dot-nav li span:hover{background-color:#666}
-.banner .dot-nav li span.selected{background-color:red;cursor:default}
-.banner .paddle-nav button{all: unset; position:absolute;z-index:50;top:50%;margin-top:-26px;font-size:80px;line-height:52px; cursor: pointer;}
-.banner .paddle-nav button.disabled{display:none}
-.banner .paddle-nav button.prev{left:-80px;}
-.banner .paddle-nav button.next{right:-80px;}
-.banner .paddle-nav button.prev::after{content:'<';margin-left:-0.044em;color: white;}
-.banner .paddle-nav button.next::after{content:'>';margin-right:-0.044em;color: white;}
