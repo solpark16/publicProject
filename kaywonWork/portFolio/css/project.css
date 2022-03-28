@@ -37,3 +37,28 @@ html {background-color: black;overflow: hidden;}
 .projectPage .aboutProject .aboutRight .aboutImage .aboutVisit p {font-size: calc(100vw*20/1920);position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);font-weight: 700;}
 .projectPage .aboutProject .aboutRight .aboutImage .aboutVisit:hover {background-color: #8cfa20;color: #000;opacity: 1;transform: rotate(30deg);}
 .projectPage .aboutProject .aboutRight .aboutImage .cocoImg, .boooaoImg {border: 1px solid rgb(63, 63, 63);}
+
+@media only screen and (max-width:500px){
+
+    .workDiv .workTitle {font-size: 40px; height: auto; color: #8cfa20;}
+    .workDiv .workTitle p{line-height: 150%;}
+    .workDiv .workTitle .workName {display: block !important;}
+    .workDiv .workTitle .titleLong {display: none !important;}
+    .workDiv .workTitle .titleLong:hover {animation: none;}
+    .workDiv .workTitle .boooaoLong:hover {animation: none;}
+
+    .projectThumb {display: none !important;}
+
+    .projectPage .deleteBtn {top: 10px; left: 10px;}
+    .projectPage .aboutProject {flex-direction: column-reverse; width: 90%; top: 0; transform: translate(-50%,0); margin-top: 100px;}
+    .projectPage .aboutProject .aboutLeft{width: 100%;}
+    .projectPage .aboutProject .aboutLeft .slogan {font-size: 15px; margin-bottom: 10px;}
+    .projectPage .aboutProject .aboutLeft .aboutTitle {font-size: 40px; margin-bottom: 50px;}
+    .projectPage .aboutProject .aboutLeft .aboutText {font-size: 15px; width: 100%; line-height: 150%; color: white; font-weight: normal;}
+    .projectPage .aboutProject .aboutLeft .aboutTag {font-size: 15px; font-weight: normal;}
+    .projectPage .aboutProject .aboutRight {width: 100%; margin-bottom: 50px;}
+    .projectPage .aboutProject .aboutRight .aboutImage:hover {box-shadow: none;}
+    .projectPage .aboutProject .aboutRight .aboutImage .aboutVisit {width: 100px; height: 100px; right: 10px; bottom: -130px; background-color: #8cfa20; opacity: 1;}
+    .projectPage .aboutProject .aboutRight .aboutImage .aboutVisit p {font-size: 15px; line-height: 150%; color: black;}
+    .projectPage .aboutProject .aboutRight .aboutImage .aboutVisit:hover {transform: rotate(0deg);}
+}

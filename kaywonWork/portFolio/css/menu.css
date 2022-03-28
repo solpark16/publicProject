@@ -9,3 +9,13 @@
 .menuPage ul .menuLi:hover{background-color: #8cfa20;}
 .menuPage ul .menuLi .menuNum {position: absolute;right: calc(100vw*15/1920);font-size: calc(100vw*97.45/1920);-webkit-transition:.4s;-moz-transition:.4s;-ms-transition:.4s;-o-transition:.4s;transition:.4s;top: calc(100vw*10/1920);}
 .menuPage ul .menuLi .menuName {width: auto;height: calc(100vw*159/1920);font-size: calc(100vw*150/1920);position: absolute;bottom: calc(100vw*20/1920);left: calc(100vw*159/1920);transform: rotate(-90deg);transform-origin: left bottom;-webkit-transition:.4s;-moz-transition:.4s;-ms-transition:.4s;-o-transition:.4s;transition:.4s;}
+
+@media only screen and (max-width:500px){
+    .menuIcon {top: 10px; right: 10px;}
+    .menuIcon img {width: 50px;}
+    .menuPage ul {top: 50%; transform: translateY(-50%); border-top: 1px solid white;}
+    .menuPage ul .menuLi {display: block; height: 100px; width: 100vw;border-bottom: 1px solid white;}
+    .menuPage ul .menuLi:hover {background-color: #000000;}
+    .menuPage ul .menuLi .menuNum {display: none;}
+    .menuPage ul .menuLi .menuName {top: 20px;transform: rotate(0deg);font-size: 50px;color: #8cfa20 !important;}
+}

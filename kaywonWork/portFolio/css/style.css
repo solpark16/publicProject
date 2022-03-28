@@ -11,7 +11,7 @@ html {overflow-y: hidden; background-color: black;}
 .textOrigin {display: none;}
 
 .startText{color: #8cfa20;position: absolute;top: 50%;left: 50%;width: calc(100vw*1200/1920);height: calc(100vw*550/1920);text-align: center;display: inline-block;transform: translate(-50%, -50%);font-size: calc(100vw*100/1920);font-family:"Noto Sans KR",sans-serif;font-weight: 900;line-height: calc(100vw*120/1920);}
-.startText ul li {display: block;font-size: calc(100vw*90/1920);-webkit-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;transition:.5s;}
+.startText ul li {display: block;font-size: calc(100vw*90/1920);-webkit-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;transition:.5s; white-space: nowrap;}
 .startText ul li:nth-child(4){line-height: 100%;font-size: calc(100vw*150/1920);margin-top: calc(100vw*50/1920);background-color: #8cfa20;color: black !important;padding-left: calc(100vw*10/1920);padding-right: calc(100vw*10/1920);}
 .startText ul li:nth-child(2):hover {transform: rotate(10deg);}
 .startText ul li:nth-child(3):hover {transform: rotate(-10deg);}
@@ -30,4 +30,14 @@ html {overflow-y: hidden; background-color: black;}
 @keyframes startText2Ani{
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+
+@media only screen and (max-width:500px){
+    .startText {width: auto; top: 40%;}
+    .startText ul li {font-size: 50px; margin-bottom: 20px;}
+    .startText ul li:nth-child(4) {font-size: 80px;}
+    .startText ul li:nth-child(2):hover {transform: rotate(0deg);}
+    .startText ul li:nth-child(3):hover {transform: rotate(0deg);}
+    .startText ul li:nth-child(4):hover {transform: rotate(0deg);}
+    .startText2 {font-size: 18px; top: 65%;}
 }
