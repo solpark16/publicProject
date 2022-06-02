@@ -1,4 +1,4 @@
-# publicProject
+# privateProject
 
 My Public Projects
 
