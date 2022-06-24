@@ -131,8 +131,116 @@ Vue에서는 v-for로 반복문을 만들 수 있다.
 
 ## __6. 이벤트 핸들러__
 
-클릭 이벤트를 만들고 싶다.
+### __6-1. 클릭 이벤트로 숫자 더해주기__
 
-    <button v-on:click="">허위매물신고</button>
+    <button @click="신고수[0]++">허위매물신고</button> <span>신고수 : {{신고수[0]}}</span>
 
-Vue에서는 onClick이 아닌 v-on:click을 쓴다. 또한 이 v-on:click는 @click으로 바꿔쓸수도 있다.
+<br>
+
+    data(){
+        return{
+        신고수 : [0,0,0],
+        }
+    },
+
+Vue에서는 onClick이 아닌 v-on:click을 쓴다. 또한 이 v-on:click는 @click으로 바꿔쓸수도 있다.  
+만약 허위매물신고 버튼을 누를 때마다 신고수가 올라가는 기능을 구현하고 싶다면 이렇게만 해주면 간단하다.  
+또한 클릭 이벤트 내에 함수를 넣어줄 수도 있다. 이 때 ()를 넣지 않고 그냥 함수명만 넣어준다.
+
+    <button @click="increase">허위매물신고</button> <span>신고수 : {{신고수[0]}}</span>
+    // increase = 함수명
+
+### __6-2. 조건문으로 모달창 만들기__
+
+
+    // 모달창
+    <div class="black-bg" v-if="모달창열렸니 == true">
+        <div class="white-bg">
+            <h4>상세페이지임</h4>
+            <p>상세페이지 내용임</p>
+            <button @click="모달창열렸니 = false">닫기</button>
+        </div>
+    </div>
+
+<br>
+
+    // 클릭 시 모달창을 나타나게 할 태그
+    <h4 @click="모달창열렸니 = true">{{products[0]}}</h4>
+
+<br>
+
+    // 데이터 보관함
+    data(){
+        return{
+            모달창열렸니 : false,
+        }
+    },    
+여기서 중점적으로 살펴봐야할 부분은 v-if이다. '모달창열렸니'가 true일 경우에만 나타나게 해준다.  
+그렇기에 데이터 보관함 속 기본값은 false이고, 클릭 이벤트로 해당 데이터를 true로 만들어준다.  
+마찬가지로, 닫기 버튼을 클릭하면 false가 되게 함으로써 닫아줄 수 있게 만들어준다.
+
+- - -
+
+## __7. 데이터 가져오기__
+
+우선 가져와줄 데이터가 많을 경우 새로 파일을 만들어주는 것이 좋다.
+
+    export default [{
+        // 데이터
+        },
+        {
+        // 데이터
+        },
+        {
+        // 데이터
+        },
+    }];
+
+파일 안이다. 데이터에 변수를 지정하고 그 변수를 export해주는 것도 괜찮지만,  
+데이터 자체를 export해줄 수도 있다.  
+그리고 App.vue에서 import해주면 된다.
+
+    // App.vue 내 script
+    import data from './assets/oneroom';
+
+이렇게 import 해주고~ (변수명은 자유롭게 작명 가능)
+
+    data(){
+        return{
+        원룸들 : data,
+        }
+    },
+
+이렇게 변수 안에 넣어준다. 이제 데이터들을 넣어줘보자.
+
+    <div v-for="oneRoomData in 원룸들" :key="oneRoomData">
+        <img :src="oneRoomData.image" class="room-img">
+        <h4>{{oneRoomData.title}}</h4>
+        <p>{{oneRoomData.price}}원</p>
+    </div>
+
+전에 사용했던 반복문을 이용해 넣어준다. 이 때 팁이 하나 있다면
+- HTML 태그안의 속성 데이터바인딩은 :어쩌구
+- HTML 태그안의 내용 데이터바인딩은 {{어쩌구}}
+
+중요한 부분이다. 잊지 말고 기억해두도록 하자.
+
+- - -
+
+## __7. 컴포넌트 만들기__
+
+React와 마찬가지로 컴포넌트를 제작할 수 있다. 사용법은 비슷하다 디테일이 조금 다르다.  
+제작하는 방법은 우선 컴포넌트 파일을 제작한 후, 1. import하고 2. 등록하고 3. 쓰면 된다.
+
+    import Discount from './Discount.vue 경로'
+
+    export default {
+        data() {
+
+        },
+        components : {
+            Discount,
+        }
+    }
+
+이렇게 해주면 \<template> 안에서 자유롭게 사용이 가능하다.
