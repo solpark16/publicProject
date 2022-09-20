@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototype Mobile</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div>
+    <button id="copy-text-1" onclick="copyToClipboard()">just do it.</button> 
+    <button id="copy-text-2" onclick="copyToClipboard()">impossible is nothing.</button> 
+  </div>
+  <br/>
+  <textarea></textarea>
+   
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script>
+
+    function copyToClipboard(val) {
+    var t = document.createElement("textarea");
+    document.body.appendChild(t);
+    t.value = val;
+    t.select();
+    t.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+    t.setSelectionRange(0, 0);
+    document.body.removeChild(t);
+    }
+
+    $('#copy-text-1').on('click touchstart', function (e) {
+      copyToClipboard('just do it.');
+      // alert
+      alert("클립보드로 복사되었습니다.");
+    })
+    
+    $('#copy-text-2').on('click touchstart', function (e) {
+      copyToClipboard('impossible is nothing.');
+      // alert
+      alert("클립보드로 복사되었습니다.");
+    })
+
+  </script>
+</body>
+
+</html>
