@@ -1,7 +1,5 @@
 # Css Flex 가이드
 
-제작자 - UID팀 박솔사원
-
 - - -
 
 ## Flex란?
@@ -15,9 +13,9 @@
 Flex 레이아웃을 만들기 위한 기본적인 HTML 구조는 다음과 같다.
 
     <div class="container">
-        <div class="item">THE</div>
-        <div class="item">FIFTY</div>
-        <div class="item">ONE</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
     </div>
 
 부모 요소인 div.container를 Flex Container, 자식 요소인 div.item들을 Flex Item이라 부른다.
@@ -289,7 +287,7 @@ flex-grow에 들어가는 숫자의 의미는, 아이템들의 flex-basis를 제
 
 ![Alt text](./img/fg121.PNG)
 
-각 아이템의 컨텐츠가 “THE”, “FIFTY”, “ONE”으로 원래의 크기가 다르기 때문에 전체 아이템의 크기가 살짝 애매한 비율로 보이지만, 여백의 비로 생각해 보면 정확히 1:2:1이다.
+각 아이템의 컨텐츠가 “AAA”, “BBBBB”, “CCC”으로 원래의 크기가 다르기 때문에 전체 아이템의 크기가 살짝 애매한 비율로 보이지만, 여백의 비로 생각해 보면 정확히 1:2:1이다.
 
 - - -
 
